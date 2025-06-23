@@ -1,7 +1,6 @@
--- Hi this is the exported database instance
--- I encountered a configuration issue like I just couldn't create tables using the okcapplicant 
--- username so I used my superuser username jerrywang and migrated the model, and there are some
--- other relations created like admin tables so please disregard those
+-- AgriTrack Database Export
+-- This is the exported database instance for the AgriTrack agricultural data management system
+-- Database contains sample agricultural data for demonstration purposes
 
 --
 -- PostgreSQL database dump

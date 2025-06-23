@@ -1,17 +1,21 @@
-<div id="app-header">
-  OKC Technical Assessment
-</div>
+<div id="app-header">AgriTrack - Agricultural Data Management System</div>
 <nav mat-tab-nav-bar>
-  <a mat-tab-link
-      [routerLink]="['', 'player-summary']"
-      routerLinkActive
-      [active]="currentTab === tab.FRONTEND"
-      (click)="currentTab = tab.FRONTEND">Frontend</a>
-  <a mat-tab-link
-      [routerLink]="['', 'player-summary-api']"
-      routerLinkActive
-      [active]="currentTab === tab.BACKEND"
-      (click)="currentTab = tab.BACKEND">Backend</a>
+  <a
+    mat-tab-link
+    [routerLink]="['', 'player-summary']"
+    routerLinkActive
+    [active]="currentTab === tab.FRONTEND"
+    (click)="currentTab = tab.FRONTEND"
+    >Frontend</a
+  >
+  <a
+    mat-tab-link
+    [routerLink]="['', 'player-summary-api']"
+    routerLinkActive
+    [active]="currentTab === tab.BACKEND"
+    (click)="currentTab = tab.BACKEND"
+    >Backend</a
+  >
 </nav>
 
 <router-outlet></router-outlet>

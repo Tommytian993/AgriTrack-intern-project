@@ -93,9 +93,9 @@ DATABASES = {
         'OPTIONS': {
             'options': '-c search_path=app,public',
         },
-        'NAME': 'okc',
-        'USER': 'okcapplicant',
-        'PASSWORD': 'thunder',
+        'NAME': 'agriproject',
+        'USER': 'agriproject',
+        'PASSWORD': 'agriproject123',
         'HOST': '127.0.0.1',
         'PORT': '5432',
     },
