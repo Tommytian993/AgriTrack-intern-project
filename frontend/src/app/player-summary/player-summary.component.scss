@@ -1,0 +1,61 @@
+player-summary-component {
+  display: block;
+  padding: 20px;
+
+  mat-form-field {
+    margin-right: 20px;
+    width: 200px;
+  }
+
+  h2 {
+    margin-top: 20px;
+  }
+
+  mat-card {
+    margin-top: 10px;
+  } 
+
+  ul {
+    // remove like the dots before each line
+    list-style-type: none;
+    padding: 0;
+
+    li {
+      padding: 5px 0;
+    }
+  }
+}
+
+/* stats and diagram container */
+.stats-court-container {
+  display: flex;
+  //make space evenly
+  justify-content: space-between;
+  gap: 20px;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.stats-container {
+  width: 50%;
+}
+
+.court-container {
+  width: 50%;
+  position: relative; 
+}
+
+.court-image {
+  width: 100%; 
+  height: auto;
+}
+
+.shot-marker {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: red; 
+  position: absolute;    
+  /*centering the marker*/
+  transform: translate(-50%, -50%); 
+}

@@ -1,0 +1,127 @@
+<h1>Player Summary Page</h1>
+<div>
+  <!-- select player via id-->
+  <mat-form-field appearance="fill">
+    <mat-label>Select Player ID</mat-label>
+    <mat-select
+      [(ngModel)]="playerID"
+      [ngModelOptions]="{ standalone: true }"
+      (selectionChange)="changePlayer()"
+    >
+      <mat-option
+        *ngFor="let _ of [].constructor(31); let i = index"
+        [value]="i + 1"
+      >
+        {{ i + 1 }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <!-- selecting the date and confirm the game -->
+  <mat-form-field appearance="fill" *ngIf="gameDates.length > 0">
+    <mat-label>Select Game Date</mat-label>
+    <mat-select
+      [(ngModel)]="selectedGameDate"
+      [ngModelOptions]="{ standalone: true }"
+      (selectionChange)="changeGameDate()"
+    >
+      <mat-option *ngFor="let date of gameDates" [value]="date">
+        {{ date }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+</div>
+
+<!-- flexbox container for stats and court diagram -->
+<div class="stats-court-container">
+  <!-- player statistics displaying -->
+  <div class="stats-container" *ngIf="gameStats">
+    <h2>Game Stats for {{ selectedGameDate }}</h2>
+    <mat-card>
+      <mat-card-content>
+        <ul>
+          <li>
+            <i class="bi bi-person-check"></i> <strong>Is Starter:</strong>
+            {{ gameStats.isStarter }}
+          </li>
+          <li>
+            <i class="bi bi-clock"></i> <strong>Minutes:</strong>
+            {{ gameStats.minutes }}
+          </li>
+          <li>
+            <i class="bi bi-star"></i> <strong>Points:</strong>
+            {{ gameStats.points }}
+          </li>
+          <li>
+            <i class="bi bi-hand-thumbs-up"></i> <strong>Assists:</strong>
+            {{ gameStats.assists }}
+          </li>
+          <li>
+            <i class="bi bi-arrow-up-circle"></i>
+            <strong>Offensive Rebounds:</strong>
+            {{ gameStats.offensiveRebounds }}
+          </li>
+          <li>
+            <i class="bi bi-arrow-down-circle"></i>
+            <strong>Defensive Rebounds:</strong>
+            {{ gameStats.defensiveRebounds }}
+          </li>
+          <li>
+            <i class="bi bi-lightning"></i> <strong>Steals:</strong>
+            {{ gameStats.steals }}
+          </li>
+          <li>
+            <i class="bi bi-shield-fill-check"></i> <strong>Blocks:</strong>
+            {{ gameStats.blocks }}
+          </li>
+          <li>
+            <i class="bi bi-recycle"></i>
+            <strong>Turnovers:</strong> {{ gameStats.turnovers }}
+          </li>
+          <li>
+            <i class="bi bi-shield-fill-x"></i>
+            <strong>Defensive Fouls:</strong>
+            {{ gameStats.defensiveFouls }}
+          </li>
+          <li>
+            <i class="bi bi-person-x-fill"></i>
+            <strong>Offensive Fouls:</strong> {{ gameStats.offensiveFouls }}
+          </li>
+          <li>
+            <i class="bi bi-1-circle-fill"></i>
+            <strong>Free Throws Made:</strong>
+            {{ gameStats.freeThrowsMade }}
+          </li>
+          <li>
+            <i class="bi bi-1-circle"></i>
+            <strong>Free Throws Attempted:</strong>
+            {{ gameStats.freeThrowsAttempted }}
+          </li>
+          <li>
+            <i class="bi bi-2-circle-fill"></i>
+            <strong>Two Pointers Made:</strong> {{ gameStats.twoPointersMade }}
+          </li>
+          <li>
+            <i class="bi bi-2-circle"></i>
+            <strong>Two Pointers Attempted:</strong>
+            {{ gameStats.twoPointersAttempted }}
+          </li>
+          <li>
+            <i class="bi bi-3-circle-fill"></i>
+            <strong>Three Pointers Made:</strong>
+            {{ gameStats.threePointersMade }}
+          </li>
+          <li>
+            <i class="bi bi-3-circle"></i>
+            <strong>Three Pointers Attempted:</strong>
+            {{ gameStats.threePointersAttempted }}
+          </li>
+        </ul>
+      </mat-card-content>
+    </mat-card>
+  </div>
+  <!--draw the court and shot marks-->
+  <div class="court-container">
+    <canvas id="courtCanvas" width="600" height="600"></canvas>
+  </div>
+</div>

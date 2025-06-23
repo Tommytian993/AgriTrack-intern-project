@@ -1,0 +1,5175 @@
+[
+  {
+    "id": 1,
+    "date": "2022-12-19",
+    "mainFarm": {
+      "id": 1,
+      "crops": [
+        {
+          "id": 17,
+          "isMainCrop": false,
+          "area": 16,
+          "yieldAmount": 12,
+          "fertilizerUsed": 1,
+          "irrigationTimes": 0,
+          "pesticideUsed": 3,
+          "diseaseEvents": 0,
+          "harvestTimes": 1,
+          "replantTimes": 0,
+          "weedEvents": 1,
+          "soilEvents": 0,
+          "organicInputTimes": 0,
+          "organicInputTotal": 0,
+          "machineryUsed": 0,
+          "machineryTotal": 0,
+          "testSampleCount": 4,
+          "testSampleTotal": 5,
+          "yieldRecords": [
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.2,
+              "fieldLocationY": 25.1
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -7.7,
+              "fieldLocationY": 26.1
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 15.8,
+              "fieldLocationY": 24.5
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -7.8,
+              "fieldLocationY": 23.5
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 16.3,
+              "fieldLocationY": 23.8
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "isMainCrop": true,
+          "area": 35,
+          "yieldAmount": 35,
+          "fertilizerUsed": 6,
+          "irrigationTimes": 0,
+          "pesticideUsed": 2,
+          "diseaseEvents": 1,
+          "harvestTimes": 2,
+          "replantTimes": 2,
+          "weedEvents": 2,
+          "soilEvents": 0,
+          "organicInputTimes": 14,
+          "organicInputTotal": 14,
+          "machineryUsed": 9,
+          "machineryTotal": 23,
+          "testSampleCount": 1,
+          "testSampleTotal": 1,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": -0.2,
+              "fieldLocationY": -0.9
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -0.6,
+              "fieldLocationY": 0.5
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -14.3,
+              "fieldLocationY": 0.4
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -5.9,
+              "fieldLocationY": 13.8
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -10.0,
+              "fieldLocationY": 11.7
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -7.0,
+              "fieldLocationY": 13.8
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -6.2,
+              "fieldLocationY": 5.9
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 0.9,
+              "fieldLocationY": 2.0
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -2.0,
+              "fieldLocationY": 1.1
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.7,
+              "fieldLocationY": 12.7
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -18.1,
+              "fieldLocationY": 18.0
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -1.3,
+              "fieldLocationY": 0.8
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -6.6,
+              "fieldLocationY": 2.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 1.2,
+              "fieldLocationY": 10.3
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -1.0,
+              "fieldLocationY": 13.6
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.1,
+              "fieldLocationY": 2.2
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 0.2,
+              "fieldLocationY": 0.8
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -6.2,
+              "fieldLocationY": 13.0
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -14.1,
+              "fieldLocationY": 10.3
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -6.5,
+              "fieldLocationY": 13.8
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.1,
+              "fieldLocationY": 2.4
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 1.0,
+              "fieldLocationY": -0.3
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 8.7,
+              "fieldLocationY": 14.0
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 7.1,
+              "fieldLocationY": 4.0
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "isMainCrop": false,
+          "area": 28,
+          "yieldAmount": 12,
+          "fertilizerUsed": 2,
+          "irrigationTimes": 1,
+          "pesticideUsed": 3,
+          "diseaseEvents": 2,
+          "harvestTimes": 0,
+          "replantTimes": 2,
+          "weedEvents": 2,
+          "soilEvents": 1,
+          "organicInputTimes": 0,
+          "organicInputTotal": 0,
+          "machineryUsed": 3,
+          "machineryTotal": 4,
+          "testSampleCount": 2,
+          "testSampleTotal": 3,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": -14.3,
+              "fieldLocationY": 25.3
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.0,
+              "fieldLocationY": 0.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.4,
+              "fieldLocationY": 4.7
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 13.5,
+              "fieldLocationY": 22.5
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 0.6,
+              "fieldLocationY": 0.4
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 6.9,
+              "fieldLocationY": 13.5
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 23.2,
+              "fieldLocationY": 0.8
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "isMainCrop": true,
+          "area": 31,
+          "yieldAmount": 13,
+          "fertilizerUsed": 0,
+          "irrigationTimes": 2,
+          "pesticideUsed": 1,
+          "diseaseEvents": 1,
+          "harvestTimes": 0,
+          "replantTimes": 2,
+          "weedEvents": 4,
+          "soilEvents": 1,
+          "organicInputTimes": 7,
+          "organicInputTotal": 8,
+          "machineryUsed": 3,
+          "machineryTotal": 6,
+          "testSampleCount": 0,
+          "testSampleTotal": 2,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": 1.8,
+              "fieldLocationY": 24.6
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -1.0,
+              "fieldLocationY": 0.2
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.7,
+              "fieldLocationY": -0.7
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -2.7,
+              "fieldLocationY": 1.1
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.6,
+              "fieldLocationY": 5.4
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 23.5,
+              "fieldLocationY": 9.7
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 3.4,
+              "fieldLocationY": 0.9
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 0.0,
+              "fieldLocationY": -0.9
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "isMainCrop": true,
+          "area": 23,
+          "yieldAmount": 8,
+          "fertilizerUsed": 3,
+          "irrigationTimes": 3,
+          "pesticideUsed": 3,
+          "diseaseEvents": 0,
+          "harvestTimes": 1,
+          "replantTimes": 2,
+          "weedEvents": 2,
+          "soilEvents": 0,
+          "organicInputTimes": 2,
+          "organicInputTotal": 4,
+          "machineryUsed": 3,
+          "machineryTotal": 5,
+          "testSampleCount": 0,
+          "testSampleTotal": 4,
+          "yieldRecords": [
+            {
+              "isHarvested": true,
+              "fieldLocationX": -1.6,
+              "fieldLocationY": 0.7
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 13.5,
+              "fieldLocationY": 25.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.1,
+              "fieldLocationY": 1.2
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.0,
+              "fieldLocationY": 0.0
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 0.0,
+              "fieldLocationY": 0.0
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -23.0,
+              "fieldLocationY": -1.0
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -23.3,
+              "fieldLocationY": 4.6
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 4.0,
+              "fieldLocationY": 1.8
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -11.9,
+              "fieldLocationY": 22.0
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "isMainCrop": false,
+          "area": 23,
+          "yieldAmount": 11,
+          "fertilizerUsed": 1,
+          "irrigationTimes": 0,
+          "pesticideUsed": 3,
+          "diseaseEvents": 1,
+          "harvestTimes": 0,
+          "replantTimes": 0,
+          "weedEvents": 1,
+          "soilEvents": 0,
+          "organicInputTimes": 0,
+          "organicInputTotal": 0,
+          "machineryUsed": 1,
+          "machineryTotal": 1,
+          "testSampleCount": 3,
+          "testSampleTotal": 6,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": -18.3,
+              "fieldLocationY": 20.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -22.8,
+              "fieldLocationY": -1.2
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 14.5,
+              "fieldLocationY": 21.0
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -14.1,
+              "fieldLocationY": 21.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -20.5,
+              "fieldLocationY": 17.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -0.7,
+              "fieldLocationY": 0.3
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 1.6,
+              "fieldLocationY": 24.6
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "isMainCrop": false,
+          "area": 10,
+          "yieldAmount": 1,
+          "fertilizerUsed": 1,
+          "irrigationTimes": 0,
+          "pesticideUsed": 1,
+          "diseaseEvents": 0,
+          "harvestTimes": 0,
+          "replantTimes": 0,
+          "weedEvents": 1,
+          "soilEvents": 0,
+          "organicInputTimes": 1,
+          "organicInputTotal": 1,
+          "machineryUsed": 0,
+          "machineryTotal": 0,
+          "testSampleCount": 0,
+          "testSampleTotal": 3,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": -22.8,
+              "fieldLocationY": -1.7
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 22.7,
+              "fieldLocationY": 3.3
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 16.7,
+              "fieldLocationY": 24.3
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "isMainCrop": true,
+          "area": 25,
+          "yieldAmount": 12,
+          "fertilizerUsed": 1,
+          "irrigationTimes": 2,
+          "pesticideUsed": 2,
+          "diseaseEvents": 1,
+          "harvestTimes": 0,
+          "replantTimes": 0,
+          "weedEvents": 2,
+          "soilEvents": 0,
+          "organicInputTimes": 4,
+          "organicInputTotal": 4,
+          "machineryUsed": 4,
+          "machineryTotal": 6,
+          "testSampleCount": 0,
+          "testSampleTotal": 3,
+          "yieldRecords": [
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.0,
+              "fieldLocationY": 1.9
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 1.5,
+              "fieldLocationY": 0.9
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -22.9,
+              "fieldLocationY": -1.6
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -1.6,
+              "fieldLocationY": 0.8
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -1.3,
+              "fieldLocationY": 3.3
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -22.5,
+              "fieldLocationY": 12.0
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 23.3,
+              "fieldLocationY": 1.4
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 1.5,
+              "fieldLocationY": -0.7
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -7.0,
+              "fieldLocationY": 0.9
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "isMainCrop": false,
+          "area": 12,
+          "yieldAmount": 6,
+          "fertilizerUsed": 1,
+          "irrigationTimes": 1,
+          "pesticideUsed": 5,
+          "diseaseEvents": 0,
+          "harvestTimes": 0,
+          "replantTimes": 1,
+          "weedEvents": 2,
+          "soilEvents": 0,
+          "organicInputTimes": 2,
+          "organicInputTotal": 3,
+          "machineryUsed": 2,
+          "machineryTotal": 2,
+          "testSampleCount": 0,
+          "testSampleTotal": 2,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": -22.5,
+              "fieldLocationY": 3.2
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 18.5,
+              "fieldLocationY": 19.2
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 1.5,
+              "fieldLocationY": -0.3
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -0.6,
+              "fieldLocationY": 2.5
+            }
+          ]
+        },
+        {
+          "id": 29,
+          "isMainCrop": true,
+          "area": 33,
+          "yieldAmount": 13,
+          "fertilizerUsed": 4,
+          "irrigationTimes": 2,
+          "pesticideUsed": 5,
+          "diseaseEvents": 1,
+          "harvestTimes": 1,
+          "replantTimes": 1,
+          "weedEvents": 2,
+          "soilEvents": 0,
+          "organicInputTimes": 2,
+          "organicInputTotal": 3,
+          "machineryUsed": 4,
+          "machineryTotal": 10,
+          "testSampleCount": 1,
+          "testSampleTotal": 2,
+          "yieldRecords": [
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.5,
+              "fieldLocationY": 1.4
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -0.9,
+              "fieldLocationY": 0.9
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -6.7,
+              "fieldLocationY": 14.7
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -1.6,
+              "fieldLocationY": 5.6
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 8.1,
+              "fieldLocationY": 20.9
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.0,
+              "fieldLocationY": 0.0
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 0.0,
+              "fieldLocationY": 0.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 1.0,
+              "fieldLocationY": 1.9
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -18.9,
+              "fieldLocationY": 16.6
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.0,
+              "fieldLocationY": 0.0
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -1.6,
+              "fieldLocationY": 0.8
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 7.7,
+              "fieldLocationY": 23.8
+            }
+          ]
+        }
+      ]
+    },
+    "otherFarm": {
+      "id": 2,
+      "crops": [
+        {
+          "id": 15,
+          "isMainCrop": false,
+          "area": 10,
+          "yieldAmount": 6,
+          "fertilizerUsed": 0,
+          "irrigationTimes": 1,
+          "pesticideUsed": 2,
+          "diseaseEvents": 0,
+          "harvestTimes": 0,
+          "replantTimes": 0,
+          "weedEvents": 0,
+          "soilEvents": 0,
+          "organicInputTimes": 2,
+          "organicInputTotal": 2,
+          "machineryUsed": 2,
+          "machineryTotal": 3,
+          "testSampleCount": 0,
+          "testSampleTotal": 1,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": 21.7,
+              "fieldLocationY": 14.1
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.0,
+              "fieldLocationY": 0.0
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 0.5,
+              "fieldLocationY": 1.2
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -13.6,
+              "fieldLocationY": 12.5
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "isMainCrop": true,
+          "area": 38,
+          "yieldAmount": 28,
+          "fertilizerUsed": 6,
+          "irrigationTimes": 0,
+          "pesticideUsed": 3,
+          "diseaseEvents": 1,
+          "harvestTimes": 0,
+          "replantTimes": 4,
+          "weedEvents": 4,
+          "soilEvents": 0,
+          "organicInputTimes": 4,
+          "organicInputTotal": 4,
+          "machineryUsed": 3,
+          "machineryTotal": 5,
+          "testSampleCount": 6,
+          "testSampleTotal": 12,
+          "yieldRecords": [
+            {
+              "isHarvested": true,
+              "fieldLocationX": -22.4,
+              "fieldLocationY": 11.5
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 1.0,
+              "fieldLocationY": -0.8
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.5,
+              "fieldLocationY": 1.3
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -23.0,
+              "fieldLocationY": 12.5
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.7,
+              "fieldLocationY": -0.1
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -20.8,
+              "fieldLocationY": 15.0
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 6.1,
+              "fieldLocationY": 7.6
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -15.9,
+              "fieldLocationY": 23.5
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 14.7,
+              "fieldLocationY": 20.5
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 16.1,
+              "fieldLocationY": 33.9
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -21.2,
+              "fieldLocationY": 12.3
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -19.0,
+              "fieldLocationY": 25.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -16.8,
+              "fieldLocationY": 22.2
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 15.2,
+              "fieldLocationY": 20.5
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -23.3,
+              "fieldLocationY": 2.4
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 0.9,
+              "fieldLocationY": 0.8
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -15.9,
+              "fieldLocationY": 25.8
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "isMainCrop": true,
+          "area": 41,
+          "yieldAmount": 26,
+          "fertilizerUsed": 3,
+          "irrigationTimes": 3,
+          "pesticideUsed": 5,
+          "diseaseEvents": 2,
+          "harvestTimes": 0,
+          "replantTimes": 4,
+          "weedEvents": 0,
+          "soilEvents": 2,
+          "organicInputTimes": 5,
+          "organicInputTotal": 7,
+          "machineryUsed": 9,
+          "machineryTotal": 13,
+          "testSampleCount": 1,
+          "testSampleTotal": 5,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": 22.2,
+              "fieldLocationY": 12.1
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 18.0,
+              "fieldLocationY": 1.0
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 13.5,
+              "fieldLocationY": 24.3
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 23.0,
+              "fieldLocationY": 4.4
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -0.6,
+              "fieldLocationY": -0.2
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -0.1,
+              "fieldLocationY": 0.8
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.7,
+              "fieldLocationY": -0.6
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 7.0,
+              "fieldLocationY": 16.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 1.0,
+              "fieldLocationY": -0.2
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 2.1,
+              "fieldLocationY": 0.3
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -0.1,
+              "fieldLocationY": 2.7
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -0.6,
+              "fieldLocationY": 2.6
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -0.4,
+              "fieldLocationY": 1.1
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -3.8,
+              "fieldLocationY": 20.6
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -23.0,
+              "fieldLocationY": 1.6
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.2,
+              "fieldLocationY": 1.5
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.4,
+              "fieldLocationY": 1.4
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 22.5,
+              "fieldLocationY": 0.5
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "isMainCrop": false,
+          "area": 22,
+          "yieldAmount": 8,
+          "fertilizerUsed": 2,
+          "irrigationTimes": 4,
+          "pesticideUsed": 2,
+          "diseaseEvents": 1,
+          "harvestTimes": 0,
+          "replantTimes": 2,
+          "weedEvents": 4,
+          "soilEvents": 1,
+          "organicInputTimes": 0,
+          "organicInputTotal": 0,
+          "machineryUsed": 4,
+          "machineryTotal": 6,
+          "testSampleCount": 0,
+          "testSampleTotal": 1,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": 1.0,
+              "fieldLocationY": -0.3
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.0,
+              "fieldLocationY": 0.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.0,
+              "fieldLocationY": 0.0
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 23.9,
+              "fieldLocationY": 9.9
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 2.7,
+              "fieldLocationY": 0.9
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -0.9,
+              "fieldLocationY": 1.1
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -1.2,
+              "fieldLocationY": 2.2
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "isMainCrop": true,
+          "area": 32,
+          "yieldAmount": 13,
+          "fertilizerUsed": 6,
+          "irrigationTimes": 2,
+          "pesticideUsed": 6,
+          "diseaseEvents": 0,
+          "harvestTimes": 0,
+          "replantTimes": 0,
+          "weedEvents": 2,
+          "soilEvents": 0,
+          "organicInputTimes": 4,
+          "organicInputTotal": 4,
+          "machineryUsed": 3,
+          "machineryTotal": 6,
+          "testSampleCount": 1,
+          "testSampleTotal": 2,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": 6.2,
+              "fieldLocationY": 7.2
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 22.3,
+              "fieldLocationY": 4.4
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 6.2,
+              "fieldLocationY": 8.2
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -13.1,
+              "fieldLocationY": 24.8
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -0.1,
+              "fieldLocationY": 2.7
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 1.2,
+              "fieldLocationY": 1.5
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 1.6,
+              "fieldLocationY": 2.2
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 1.1,
+              "fieldLocationY": 1.9
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "isMainCrop": true,
+          "area": 34,
+          "yieldAmount": 19,
+          "fertilizerUsed": 1,
+          "irrigationTimes": 0,
+          "pesticideUsed": 4,
+          "diseaseEvents": 1,
+          "harvestTimes": 0,
+          "replantTimes": 2,
+          "weedEvents": 5,
+          "soilEvents": 0,
+          "organicInputTimes": 0,
+          "organicInputTotal": 0,
+          "machineryUsed": 2,
+          "machineryTotal": 6,
+          "testSampleCount": 5,
+          "testSampleTotal": 10,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": -1.8,
+              "fieldLocationY": 26.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -6.0,
+              "fieldLocationY": 9.2
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -16.8,
+              "fieldLocationY": 19.6
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -19.6,
+              "fieldLocationY": 16.4
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 16.4,
+              "fieldLocationY": 22.8
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -16.5,
+              "fieldLocationY": 20.7
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -15.6,
+              "fieldLocationY": 21.9
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -16.5,
+              "fieldLocationY": 19.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 6.2,
+              "fieldLocationY": 6.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -18.1,
+              "fieldLocationY": 17.6
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -21.6,
+              "fieldLocationY": 14.1
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 6.1,
+              "fieldLocationY": 10.5
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -10.8,
+              "fieldLocationY": 12.2
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 6.7,
+              "fieldLocationY": 13.5
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 21.6,
+              "fieldLocationY": 14.5
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -0.2,
+              "fieldLocationY": 2.7
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "isMainCrop": true,
+          "area": 31,
+          "yieldAmount": 9,
+          "fertilizerUsed": 3,
+          "irrigationTimes": 2,
+          "pesticideUsed": 5,
+          "diseaseEvents": 0,
+          "harvestTimes": 2,
+          "replantTimes": 0,
+          "weedEvents": 4,
+          "soilEvents": 0,
+          "organicInputTimes": 1,
+          "organicInputTotal": 2,
+          "machineryUsed": 4,
+          "machineryTotal": 4,
+          "testSampleCount": 0,
+          "testSampleTotal": 0,
+          "yieldRecords": [
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.0,
+              "fieldLocationY": 1.2
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.0,
+              "fieldLocationY": 0.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -0.5,
+              "fieldLocationY": 1.9
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -6.2,
+              "fieldLocationY": 2.0
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "isMainCrop": false,
+          "area": 13,
+          "yieldAmount": 9,
+          "fertilizerUsed": 1,
+          "irrigationTimes": 2,
+          "pesticideUsed": 2,
+          "diseaseEvents": 0,
+          "harvestTimes": 0,
+          "replantTimes": 0,
+          "weedEvents": 1,
+          "soilEvents": 0,
+          "organicInputTimes": 0,
+          "organicInputTotal": 0,
+          "machineryUsed": 0,
+          "machineryTotal": 6,
+          "testSampleCount": 3,
+          "testSampleTotal": 5,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": 23.2,
+              "fieldLocationY": 0.9
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 23.2,
+              "fieldLocationY": 2.0
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 6.9,
+              "fieldLocationY": 5.9
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 23.0,
+              "fieldLocationY": 2.8
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -22.8,
+              "fieldLocationY": -1.2
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 0.0,
+              "fieldLocationY": 0.0
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 0.0,
+              "fieldLocationY": 5.1
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 17.3,
+              "fieldLocationY": 18.4
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 0.2,
+              "fieldLocationY": 0.4
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -6.2,
+              "fieldLocationY": 5.3
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -16.2,
+              "fieldLocationY": -2.2
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "isMainCrop": false,
+          "area": 14,
+          "yieldAmount": 3,
+          "fertilizerUsed": 4,
+          "irrigationTimes": 0,
+          "pesticideUsed": 2,
+          "diseaseEvents": 0,
+          "harvestTimes": 0,
+          "replantTimes": 4,
+          "weedEvents": 2,
+          "soilEvents": 3,
+          "organicInputTimes": 1,
+          "organicInputTotal": 2,
+          "machineryUsed": 1,
+          "machineryTotal": 2,
+          "testSampleCount": 0,
+          "testSampleTotal": 1,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": 0.9,
+              "fieldLocationY": 2.1
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.9,
+              "fieldLocationY": 5.0
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -0.4,
+              "fieldLocationY": 25.5
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "date": "2022-12-21",
+    "mainFarm": {
+      "id": 1,
+      "crops": [
+        {
+          "id": 22,
+          "isMainCrop": false,
+          "area": 17,
+          "yieldAmount": 6,
+          "fertilizerUsed": 1,
+          "irrigationTimes": 0,
+          "pesticideUsed": 2,
+          "diseaseEvents": 1,
+          "harvestTimes": 0,
+          "replantTimes": 0,
+          "weedEvents": 2,
+          "soilEvents": 0,
+          "organicInputTimes": 0,
+          "organicInputTotal": 0,
+          "machineryUsed": 0,
+          "machineryTotal": 1,
+          "testSampleCount": 2,
+          "testSampleTotal": 4,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": -17.0,
+              "fieldLocationY": 22.0
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 2.2,
+              "fieldLocationY": 1.5
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -17.0,
+              "fieldLocationY": 22.4
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -8.1,
+              "fieldLocationY": 26.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -8.5,
+              "fieldLocationY": 25.5
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "isMainCrop": false,
+          "area": 6,
+          "yieldAmount": 3,
+          "fertilizerUsed": 1,
+          "irrigationTimes": 1,
+          "pesticideUsed": 0,
+          "diseaseEvents": 0,
+          "harvestTimes": 0,
+          "replantTimes": 0,
+          "weedEvents": 0,
+          "soilEvents": 0,
+          "organicInputTimes": 0,
+          "organicInputTotal": 0,
+          "machineryUsed": 0,
+          "machineryTotal": 0,
+          "testSampleCount": 1,
+          "testSampleTotal": 1,
+          "yieldRecords": [
+            {
+              "isHarvested": true,
+              "fieldLocationX": 21.0,
+              "fieldLocationY": 13.1
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "isMainCrop": true,
+          "area": 30,
+          "yieldAmount": 13,
+          "fertilizerUsed": 6,
+          "irrigationTimes": 2,
+          "pesticideUsed": 4,
+          "diseaseEvents": 1,
+          "harvestTimes": 0,
+          "replantTimes": 3,
+          "weedEvents": 0,
+          "soilEvents": 0,
+          "organicInputTimes": 1,
+          "organicInputTotal": 2,
+          "machineryUsed": 6,
+          "machineryTotal": 8,
+          "testSampleCount": 0,
+          "testSampleTotal": 0,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": -2.8,
+              "fieldLocationY": 11.9
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -6.1,
+              "fieldLocationY": 4.3
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -0.6,
+              "fieldLocationY": 6.2
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 3.6,
+              "fieldLocationY": 5.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 1.0,
+              "fieldLocationY": 6.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -6.9,
+              "fieldLocationY": 1.3
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -1.3,
+              "fieldLocationY": 0.9
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -2.1,
+              "fieldLocationY": 0.7
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "isMainCrop": false,
+          "area": 9,
+          "yieldAmount": 0,
+          "fertilizerUsed": 0,
+          "irrigationTimes": 1,
+          "pesticideUsed": 2,
+          "diseaseEvents": 0,
+          "harvestTimes": 0,
+          "replantTimes": 1,
+          "weedEvents": 0,
+          "soilEvents": 1,
+          "organicInputTimes": 0,
+          "organicInputTotal": 0,
+          "machineryUsed": 0,
+          "machineryTotal": 4,
+          "testSampleCount": 0,
+          "testSampleTotal": 0,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": 4.5,
+              "fieldLocationY": 0.8
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 4.5,
+              "fieldLocationY": 11.0
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -6.0,
+              "fieldLocationY": 0.3
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -3.2,
+              "fieldLocationY": 0.2
+            }
+          ]
+        },
+        {
+          "id": 29,
+          "isMainCrop": true,
+          "area": 30,
+          "yieldAmount": 15,
+          "fertilizerUsed": 1,
+          "irrigationTimes": 0,
+          "pesticideUsed": 4,
+          "diseaseEvents": 0,
+          "harvestTimes": 0,
+          "replantTimes": 3,
+          "weedEvents": 2,
+          "soilEvents": 0,
+          "organicInputTimes": 4,
+          "organicInputTotal": 4,
+          "machineryUsed": 4,
+          "machineryTotal": 5,
+          "testSampleCount": 1,
+          "testSampleTotal": 3,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": -23.9,
+              "fieldLocationY": 0.9
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -1.3,
+              "fieldLocationY": 2.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -2.3,
+              "fieldLocationY": 1.5
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -4.2,
+              "fieldLocationY": 2.4
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -3.8,
+              "fieldLocationY": 5.8
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -19.5,
+              "fieldLocationY": 17.6
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 3.6,
+              "fieldLocationY": 3.3
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 16.1,
+              "fieldLocationY": 20.3
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "isMainCrop": false,
+          "area": 20,
+          "yieldAmount": 6,
+          "fertilizerUsed": 0,
+          "irrigationTimes": 0,
+          "pesticideUsed": 1,
+          "diseaseEvents": 0,
+          "harvestTimes": 1,
+          "replantTimes": 0,
+          "weedEvents": 5,
+          "soilEvents": 0,
+          "organicInputTimes": 0,
+          "organicInputTotal": 0,
+          "machineryUsed": 0,
+          "machineryTotal": 2,
+          "testSampleCount": 2,
+          "testSampleTotal": 3,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": -17.6,
+              "fieldLocationY": 0.1
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 5.6,
+              "fieldLocationY": 25.8
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 23.7,
+              "fieldLocationY": -0.4
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -18.4,
+              "fieldLocationY": 12.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -22.5,
+              "fieldLocationY": -3.3
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "isMainCrop": true,
+          "area": 35,
+          "yieldAmount": 27,
+          "fertilizerUsed": 3,
+          "irrigationTimes": 0,
+          "pesticideUsed": 6,
+          "diseaseEvents": 2,
+          "harvestTimes": 1,
+          "replantTimes": 5,
+          "weedEvents": 1,
+          "soilEvents": 2,
+          "organicInputTimes": 11,
+          "organicInputTotal": 13,
+          "machineryUsed": 8,
+          "machineryTotal": 16,
+          "testSampleCount": 0,
+          "testSampleTotal": 3,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": 4.8,
+              "fieldLocationY": 27.1
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -1.8,
+              "fieldLocationY": 2.6
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 3.9,
+              "fieldLocationY": 9.3
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -5.5,
+              "fieldLocationY": 4.3
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 3.4,
+              "fieldLocationY": 7.1
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 5.8,
+              "fieldLocationY": 7.5
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 3.4,
+              "fieldLocationY": 2.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.1,
+              "fieldLocationY": 6.1
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 2.7,
+              "fieldLocationY": 3.6
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -3.7,
+              "fieldLocationY": 16.8
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -4.3,
+              "fieldLocationY": 1.1
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 2.0,
+              "fieldLocationY": 3.1
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 7.5,
+              "fieldLocationY": 12.3
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 1.8,
+              "fieldLocationY": 0.9
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 15.3,
+              "fieldLocationY": 0.5
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 6.0,
+              "fieldLocationY": 26.1
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 2.7,
+              "fieldLocationY": 2.4
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 14.5,
+              "fieldLocationY": 25.9
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -2.8,
+              "fieldLocationY": 1.0
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "isMainCrop": false,
+          "area": 26,
+          "yieldAmount": 9,
+          "fertilizerUsed": 2,
+          "irrigationTimes": 4,
+          "pesticideUsed": 3,
+          "diseaseEvents": 2,
+          "harvestTimes": 0,
+          "replantTimes": 1,
+          "weedEvents": 0,
+          "soilEvents": 0,
+          "organicInputTimes": 1,
+          "organicInputTotal": 2,
+          "machineryUsed": 4,
+          "machineryTotal": 6,
+          "testSampleCount": 0,
+          "testSampleTotal": 1,
+          "yieldRecords": [
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.0,
+              "fieldLocationY": 0.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -2.5,
+              "fieldLocationY": 12.5
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 2.0,
+              "fieldLocationY": 1.1
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -4.7,
+              "fieldLocationY": 11.3
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.0,
+              "fieldLocationY": 0.0
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 22.5,
+              "fieldLocationY": 12.3
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 0.6,
+              "fieldLocationY": 7.3
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "isMainCrop": true,
+          "area": 38,
+          "yieldAmount": 14,
+          "fertilizerUsed": 3,
+          "irrigationTimes": 0,
+          "pesticideUsed": 3,
+          "diseaseEvents": 1,
+          "harvestTimes": 1,
+          "replantTimes": 3,
+          "weedEvents": 2,
+          "soilEvents": 0,
+          "organicInputTimes": 2,
+          "organicInputTotal": 2,
+          "machineryUsed": 3,
+          "machineryTotal": 5,
+          "testSampleCount": 2,
+          "testSampleTotal": 6,
+          "yieldRecords": [
+            {
+              "isHarvested": true,
+              "fieldLocationX": 1.8,
+              "fieldLocationY": 0.6
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 19.9,
+              "fieldLocationY": 15.9
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -16.5,
+              "fieldLocationY": 22.5
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -5.1,
+              "fieldLocationY": 4.5
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -22.9,
+              "fieldLocationY": 2.5
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 20.6,
+              "fieldLocationY": 14.0
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -1.5,
+              "fieldLocationY": 2.4
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.0,
+              "fieldLocationY": 1.8
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 14.2,
+              "fieldLocationY": 23.3
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 9.3,
+              "fieldLocationY": 28.2
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -4.0,
+              "fieldLocationY": 2.9
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "isMainCrop": true,
+          "area": 19,
+          "yieldAmount": 6,
+          "fertilizerUsed": 2,
+          "irrigationTimes": 1,
+          "pesticideUsed": 2,
+          "diseaseEvents": 2,
+          "harvestTimes": 0,
+          "replantTimes": 1,
+          "weedEvents": 1,
+          "soilEvents": 0,
+          "organicInputTimes": 2,
+          "organicInputTotal": 2,
+          "machineryUsed": 2,
+          "machineryTotal": 5,
+          "testSampleCount": 0,
+          "testSampleTotal": 2,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": 2.9,
+              "fieldLocationY": 14.3
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 23.4,
+              "fieldLocationY": -1.6
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.0,
+              "fieldLocationY": 0.0
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 4.7,
+              "fieldLocationY": 2.9
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 22.4,
+              "fieldLocationY": -0.4
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -2.0,
+              "fieldLocationY": 1.2
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 3.1,
+              "fieldLocationY": 3.3
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "isMainCrop": false,
+          "area": 3,
+          "yieldAmount": 2,
+          "fertilizerUsed": 0,
+          "irrigationTimes": 0,
+          "pesticideUsed": 1,
+          "diseaseEvents": 0,
+          "harvestTimes": 0,
+          "replantTimes": 1,
+          "weedEvents": 0,
+          "soilEvents": 0,
+          "organicInputTimes": 0,
+          "organicInputTotal": 0,
+          "machineryUsed": 1,
+          "machineryTotal": 1,
+          "testSampleCount": 0,
+          "testSampleTotal": 1,
+          "yieldRecords": [
+            {
+              "isHarvested": true,
+              "fieldLocationX": -0.9,
+              "fieldLocationY": 0.3
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 15.4,
+              "fieldLocationY": 21.0
+            }
+          ]
+        }
+      ]
+    },
+    "otherFarm": {
+      "id": 2,
+      "crops": [
+        {
+          "id": 14,
+          "isMainCrop": false,
+          "area": 18,
+          "yieldAmount": 8,
+          "fertilizerUsed": 1,
+          "irrigationTimes": 2,
+          "pesticideUsed": 5,
+          "diseaseEvents": 1,
+          "harvestTimes": 0,
+          "replantTimes": 1,
+          "weedEvents": 2,
+          "soilEvents": 1,
+          "organicInputTimes": 0,
+          "organicInputTotal": 0,
+          "machineryUsed": 4,
+          "machineryTotal": 5,
+          "testSampleCount": 0,
+          "testSampleTotal": 0,
+          "yieldRecords": [
+            {
+              "isHarvested": true,
+              "fieldLocationX": 3.8,
+              "fieldLocationY": 2.1
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.0,
+              "fieldLocationY": 0.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.0,
+              "fieldLocationY": 0.0
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -1.5,
+              "fieldLocationY": 9.9
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 2.8,
+              "fieldLocationY": 0.9
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "isMainCrop": true,
+          "area": 36,
+          "yieldAmount": 16,
+          "fertilizerUsed": 8,
+          "irrigationTimes": 0,
+          "pesticideUsed": 2,
+          "diseaseEvents": 2,
+          "harvestTimes": 0,
+          "replantTimes": 4,
+          "weedEvents": 2,
+          "soilEvents": 0,
+          "organicInputTimes": 2,
+          "organicInputTotal": 2,
+          "machineryUsed": 4,
+          "machineryTotal": 8,
+          "testSampleCount": 2,
+          "testSampleTotal": 11,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": -15.7,
+              "fieldLocationY": 27.9
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -11.6,
+              "fieldLocationY": 26.7
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -19.6,
+              "fieldLocationY": 17.4
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -10.3,
+              "fieldLocationY": 15.5
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 3.4,
+              "fieldLocationY": 0.9
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -15.9,
+              "fieldLocationY": 20.7
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -18.9,
+              "fieldLocationY": 19.2
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 16.8,
+              "fieldLocationY": 22.5
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -3.6,
+              "fieldLocationY": 5.4
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -1.1,
+              "fieldLocationY": 25.7
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 22.2,
+              "fieldLocationY": 12.9
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -2.6,
+              "fieldLocationY": 1.3
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 11.4,
+              "fieldLocationY": 26.6
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -16.7,
+              "fieldLocationY": 27.6
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -7.0,
+              "fieldLocationY": 2.4
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.5,
+              "fieldLocationY": 28.5
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 5.5,
+              "fieldLocationY": 1.2
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -3.8,
+              "fieldLocationY": 9.5
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -4.2,
+              "fieldLocationY": 2.7
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "isMainCrop": true,
+          "area": 22,
+          "yieldAmount": 12,
+          "fertilizerUsed": 4,
+          "irrigationTimes": 1,
+          "pesticideUsed": 5,
+          "diseaseEvents": 1,
+          "harvestTimes": 0,
+          "replantTimes": 1,
+          "weedEvents": 1,
+          "soilEvents": 0,
+          "organicInputTimes": 1,
+          "organicInputTotal": 2,
+          "machineryUsed": 4,
+          "machineryTotal": 5,
+          "testSampleCount": 1,
+          "testSampleTotal": 2,
+          "yieldRecords": [
+            {
+              "isHarvested": true,
+              "fieldLocationX": -16.3,
+              "fieldLocationY": 20.8
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -9.3,
+              "fieldLocationY": 24.5
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 12.3,
+              "fieldLocationY": 7.1
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -2.8,
+              "fieldLocationY": 6.2
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.0,
+              "fieldLocationY": 0.0
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -2.3,
+              "fieldLocationY": 2.4
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.9,
+              "fieldLocationY": 4.1
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "isMainCrop": false,
+          "area": 15,
+          "yieldAmount": 3,
+          "fertilizerUsed": 2,
+          "irrigationTimes": 1,
+          "pesticideUsed": 1,
+          "diseaseEvents": 0,
+          "harvestTimes": 1,
+          "replantTimes": 0,
+          "weedEvents": 0,
+          "soilEvents": 0,
+          "organicInputTimes": 0,
+          "organicInputTotal": 0,
+          "machineryUsed": 0,
+          "machineryTotal": 2,
+          "testSampleCount": 1,
+          "testSampleTotal": 3,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": -23.7,
+              "fieldLocationY": 1.7
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -23.2,
+              "fieldLocationY": 2.0
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -4.5,
+              "fieldLocationY": 1.5
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -21.6,
+              "fieldLocationY": 12.4
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 2.9,
+              "fieldLocationY": 1.4
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "isMainCrop": true,
+          "area": 34,
+          "yieldAmount": 13,
+          "fertilizerUsed": 2,
+          "irrigationTimes": 1,
+          "pesticideUsed": 4,
+          "diseaseEvents": 1,
+          "harvestTimes": 0,
+          "replantTimes": 5,
+          "weedEvents": 3,
+          "soilEvents": 2,
+          "organicInputTimes": 2,
+          "organicInputTotal": 2,
+          "machineryUsed": 4,
+          "machineryTotal": 4,
+          "testSampleCount": 1,
+          "testSampleTotal": 3,
+          "yieldRecords": [
+            {
+              "isHarvested": true,
+              "fieldLocationX": -2.5,
+              "fieldLocationY": 1.6
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -22.7,
+              "fieldLocationY": -1.2
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 1.1,
+              "fieldLocationY": 1.5
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 1.8,
+              "fieldLocationY": 3.6
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -19.6,
+              "fieldLocationY": 16.4
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 1.8,
+              "fieldLocationY": 1.2
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -23.0,
+              "fieldLocationY": 1.4
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "isMainCrop": true,
+          "area": 29,
+          "yieldAmount": 12,
+          "fertilizerUsed": 4,
+          "irrigationTimes": 0,
+          "pesticideUsed": 1,
+          "diseaseEvents": 1,
+          "harvestTimes": 1,
+          "replantTimes": 3,
+          "weedEvents": 3,
+          "soilEvents": 2,
+          "organicInputTimes": 0,
+          "organicInputTotal": 0,
+          "machineryUsed": 0,
+          "machineryTotal": 2,
+          "testSampleCount": 4,
+          "testSampleTotal": 9,
+          "yieldRecords": [
+            {
+              "isHarvested": true,
+              "fieldLocationX": -15.9,
+              "fieldLocationY": 20.9
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -23.0,
+              "fieldLocationY": 1.2
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 4.2,
+              "fieldLocationY": 3.4
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -17.6,
+              "fieldLocationY": 20.6
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 23.0,
+              "fieldLocationY": 3.5
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -17.4,
+              "fieldLocationY": 18.3
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 13.6,
+              "fieldLocationY": 23.1
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -23.7,
+              "fieldLocationY": 8.8
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -6.4,
+              "fieldLocationY": 8.7
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -2.1,
+              "fieldLocationY": 26.7
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -24.1,
+              "fieldLocationY": 7.9
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "isMainCrop": false,
+          "area": 19,
+          "yieldAmount": 6,
+          "fertilizerUsed": 3,
+          "irrigationTimes": 4,
+          "pesticideUsed": 3,
+          "diseaseEvents": 3,
+          "harvestTimes": 1,
+          "replantTimes": 1,
+          "weedEvents": 2,
+          "soilEvents": 0,
+          "organicInputTimes": 0,
+          "organicInputTotal": 0,
+          "machineryUsed": 3,
+          "machineryTotal": 5,
+          "testSampleCount": 0,
+          "testSampleTotal": 0,
+          "yieldRecords": [
+            {
+              "isHarvested": true,
+              "fieldLocationX": 1.2,
+              "fieldLocationY": 2.1
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -2.5,
+              "fieldLocationY": 3.8
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 9.3,
+              "fieldLocationY": -0.2
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 1.0,
+              "fieldLocationY": 2.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 2.2,
+              "fieldLocationY": 1.5
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "isMainCrop": false,
+          "area": 7,
+          "yieldAmount": 3,
+          "fertilizerUsed": 1,
+          "irrigationTimes": 0,
+          "pesticideUsed": 0,
+          "diseaseEvents": 0,
+          "harvestTimes": 1,
+          "replantTimes": 1,
+          "weedEvents": 2,
+          "soilEvents": 0,
+          "organicInputTimes": 0,
+          "organicInputTotal": 0,
+          "machineryUsed": 0,
+          "machineryTotal": 0,
+          "testSampleCount": 1,
+          "testSampleTotal": 1,
+          "yieldRecords": [
+            {
+              "isHarvested": true,
+              "fieldLocationX": 9.9,
+              "fieldLocationY": 24.5
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "isMainCrop": false,
+          "area": 19,
+          "yieldAmount": 8,
+          "fertilizerUsed": 0,
+          "irrigationTimes": 0,
+          "pesticideUsed": 1,
+          "diseaseEvents": 0,
+          "harvestTimes": 0,
+          "replantTimes": 0,
+          "weedEvents": 0,
+          "soilEvents": 0,
+          "organicInputTimes": 0,
+          "organicInputTotal": 0,
+          "machineryUsed": 1,
+          "machineryTotal": 2,
+          "testSampleCount": 2,
+          "testSampleTotal": 3,
+          "yieldRecords": [
+            {
+              "isHarvested": true,
+              "fieldLocationX": -2.5,
+              "fieldLocationY": 1.9
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -15.2,
+              "fieldLocationY": 22.3
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -14.8,
+              "fieldLocationY": 14.6
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 22.9,
+              "fieldLocationY": 0.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -23.3,
+              "fieldLocationY": 8.2
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "isMainCrop": true,
+          "area": 35,
+          "yieldAmount": 17,
+          "fertilizerUsed": 4,
+          "irrigationTimes": 0,
+          "pesticideUsed": 5,
+          "diseaseEvents": 0,
+          "harvestTimes": 1,
+          "replantTimes": 2,
+          "weedEvents": 2,
+          "soilEvents": 0,
+          "organicInputTimes": 1,
+          "organicInputTotal": 3,
+          "machineryUsed": 5,
+          "machineryTotal": 10,
+          "testSampleCount": 2,
+          "testSampleTotal": 4,
+          "yieldRecords": [
+            {
+              "isHarvested": true,
+              "fieldLocationX": 2.2,
+              "fieldLocationY": 1.2
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -1.6,
+              "fieldLocationY": 2.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 18.4,
+              "fieldLocationY": 21.3
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -16.5,
+              "fieldLocationY": 5.5
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -3.1,
+              "fieldLocationY": 2.8
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 1.8,
+              "fieldLocationY": 2.8
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 1.7,
+              "fieldLocationY": 2.4
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 9.3,
+              "fieldLocationY": 24.9
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 0.7,
+              "fieldLocationY": 5.5
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 0.0,
+              "fieldLocationY": 40.3
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -3.8,
+              "fieldLocationY": 4.2
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 23.0,
+              "fieldLocationY": 0.1
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -4.7,
+              "fieldLocationY": 2.6
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 11.8,
+              "fieldLocationY": 4.7
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "date": "2023-02-10",
+    "mainFarm": {
+      "id": 2,
+      "crops": [
+        {
+          "id": 14,
+          "isMainCrop": false,
+          "area": 16,
+          "yieldAmount": 4,
+          "fertilizerUsed": 3,
+          "irrigationTimes": 1,
+          "pesticideUsed": 1,
+          "diseaseEvents": 0,
+          "harvestTimes": 0,
+          "replantTimes": 0,
+          "weedEvents": 5,
+          "soilEvents": 0,
+          "organicInputTimes": 0,
+          "organicInputTotal": 0,
+          "machineryUsed": 2,
+          "machineryTotal": 2,
+          "testSampleCount": 0,
+          "testSampleTotal": 0,
+          "yieldRecords": [
+            {
+              "isHarvested": true,
+              "fieldLocationX": 2.1,
+              "fieldLocationY": 0.7
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -0.1,
+              "fieldLocationY": 1.0
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "isMainCrop": true,
+          "area": 17,
+          "yieldAmount": 11,
+          "fertilizerUsed": 2,
+          "irrigationTimes": 0,
+          "pesticideUsed": 2,
+          "diseaseEvents": 0,
+          "harvestTimes": 0,
+          "replantTimes": 0,
+          "weedEvents": 3,
+          "soilEvents": 0,
+          "organicInputTimes": 1,
+          "organicInputTotal": 1,
+          "machineryUsed": 2,
+          "machineryTotal": 2,
+          "testSampleCount": 2,
+          "testSampleTotal": 5,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": 21.6,
+              "fieldLocationY": 11.1
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -22.8,
+              "fieldLocationY": 1.5
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -6.6,
+              "fieldLocationY": 2.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 16.3,
+              "fieldLocationY": 20.3
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -21.1,
+              "fieldLocationY": 16.7
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 22.4,
+              "fieldLocationY": 5.1
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -1.1,
+              "fieldLocationY": -0.5
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "isMainCrop": false,
+          "area": 24,
+          "yieldAmount": 8,
+          "fertilizerUsed": 1,
+          "irrigationTimes": 2,
+          "pesticideUsed": 3,
+          "diseaseEvents": 0,
+          "harvestTimes": 1,
+          "replantTimes": 3,
+          "weedEvents": 2,
+          "soilEvents": 1,
+          "organicInputTimes": 2,
+          "organicInputTotal": 2,
+          "machineryUsed": 0,
+          "machineryTotal": 0,
+          "testSampleCount": 2,
+          "testSampleTotal": 4,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": 11.2,
+              "fieldLocationY": 24.7
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 12.0,
+              "fieldLocationY": 24.6
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 14.3,
+              "fieldLocationY": 22.6
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 16.3,
+              "fieldLocationY": 21.0
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "isMainCrop": true,
+          "area": 35,
+          "yieldAmount": 38,
+          "fertilizerUsed": 9,
+          "irrigationTimes": 1,
+          "pesticideUsed": 1,
+          "diseaseEvents": 1,
+          "harvestTimes": 0,
+          "replantTimes": 6,
+          "weedEvents": 2,
+          "soilEvents": 1,
+          "organicInputTimes": 12,
+          "organicInputTotal": 13,
+          "machineryUsed": 4,
+          "machineryTotal": 5,
+          "testSampleCount": 6,
+          "testSampleTotal": 13,
+          "yieldRecords": [
+            {
+              "isHarvested": true,
+              "fieldLocationX": 11.8,
+              "fieldLocationY": 14.3
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -0.1,
+              "fieldLocationY": 29.3
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 16.1,
+              "fieldLocationY": 22.4
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 10.5,
+              "fieldLocationY": 25.2
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 2.5,
+              "fieldLocationY": 1.9
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -9.3,
+              "fieldLocationY": 25.4
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -0.5,
+              "fieldLocationY": -0.2
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -0.7,
+              "fieldLocationY": 0.2
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 14.3,
+              "fieldLocationY": 27.5
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 7.8,
+              "fieldLocationY": 25.6
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -5.8,
+              "fieldLocationY": 26.1
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -14.6,
+              "fieldLocationY": 24.4
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -18.1,
+              "fieldLocationY": 23.6
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -11.3,
+              "fieldLocationY": 26.0
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 23.3,
+              "fieldLocationY": 1.2
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -14.8,
+              "fieldLocationY": 22.7
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 14.7,
+              "fieldLocationY": 23.9
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.0,
+              "fieldLocationY": 0.4
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "isMainCrop": false,
+          "area": 13,
+          "yieldAmount": 10,
+          "fertilizerUsed": 1,
+          "irrigationTimes": 1,
+          "pesticideUsed": 2,
+          "diseaseEvents": 0,
+          "harvestTimes": 0,
+          "replantTimes": 1,
+          "weedEvents": 1,
+          "soilEvents": 1,
+          "organicInputTimes": 0,
+          "organicInputTotal": 0,
+          "machineryUsed": 5,
+          "machineryTotal": 6,
+          "testSampleCount": 0,
+          "testSampleTotal": 1,
+          "yieldRecords": [
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.7,
+              "fieldLocationY": 0.3
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -8.8,
+              "fieldLocationY": 13.5
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -9.9,
+              "fieldLocationY": -1.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.2,
+              "fieldLocationY": -0.2
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -23.3,
+              "fieldLocationY": -0.7
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -0.7,
+              "fieldLocationY": 0.3
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.2,
+              "fieldLocationY": -0.7
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "isMainCrop": false,
+          "area": 28,
+          "yieldAmount": 13,
+          "fertilizerUsed": 3,
+          "irrigationTimes": 1,
+          "pesticideUsed": 2,
+          "diseaseEvents": 1,
+          "harvestTimes": 2,
+          "replantTimes": 0,
+          "weedEvents": 0,
+          "soilEvents": 0,
+          "organicInputTimes": 0,
+          "organicInputTotal": 0,
+          "machineryUsed": 2,
+          "machineryTotal": 4,
+          "testSampleCount": 3,
+          "testSampleTotal": 4,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": 1.2,
+              "fieldLocationY": 1.4
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -0.7,
+              "fieldLocationY": 1.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -18.3,
+              "fieldLocationY": 17.3
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 23.8,
+              "fieldLocationY": 2.5
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -17.5,
+              "fieldLocationY": 19.4
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -0.2,
+              "fieldLocationY": 0.3
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -15.4,
+              "fieldLocationY": 2.6
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -17.2,
+              "fieldLocationY": 19.9
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "isMainCrop": true,
+          "area": 36,
+          "yieldAmount": 23,
+          "fertilizerUsed": 2,
+          "irrigationTimes": 0,
+          "pesticideUsed": 4,
+          "diseaseEvents": 0,
+          "harvestTimes": 1,
+          "replantTimes": 4,
+          "weedEvents": 5,
+          "soilEvents": 0,
+          "organicInputTimes": 5,
+          "organicInputTotal": 5,
+          "machineryUsed": 6,
+          "machineryTotal": 8,
+          "testSampleCount": 2,
+          "testSampleTotal": 5,
+          "yieldRecords": [
+            {
+              "isHarvested": true,
+              "fieldLocationX": 11.6,
+              "fieldLocationY": 3.3
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 22.4,
+              "fieldLocationY": 4.2
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 17.6,
+              "fieldLocationY": 17.5
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 21.4,
+              "fieldLocationY": 1.4
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.2,
+              "fieldLocationY": -0.2
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 20.8,
+              "fieldLocationY": 16.6
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.9,
+              "fieldLocationY": 0.6
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 1.0,
+              "fieldLocationY": -0.1
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -23.3,
+              "fieldLocationY": 2.4
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -22.7,
+              "fieldLocationY": 6.2
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.1,
+              "fieldLocationY": -1.7
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.5,
+              "fieldLocationY": 12.9
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -13.1,
+              "fieldLocationY": 4.6
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "isMainCrop": true,
+          "area": 28,
+          "yieldAmount": 9,
+          "fertilizerUsed": 2,
+          "irrigationTimes": 2,
+          "pesticideUsed": 6,
+          "diseaseEvents": 0,
+          "harvestTimes": 1,
+          "replantTimes": 2,
+          "weedEvents": 2,
+          "soilEvents": 1,
+          "organicInputTimes": 5,
+          "organicInputTotal": 6,
+          "machineryUsed": 2,
+          "machineryTotal": 2,
+          "testSampleCount": 0,
+          "testSampleTotal": 0,
+          "yieldRecords": [
+            {
+              "isHarvested": true,
+              "fieldLocationX": 5.9,
+              "fieldLocationY": 3.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 1.0,
+              "fieldLocationY": 0.9
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "isMainCrop": true,
+          "area": 36,
+          "yieldAmount": 11,
+          "fertilizerUsed": 6,
+          "irrigationTimes": 1,
+          "pesticideUsed": 2,
+          "diseaseEvents": 1,
+          "harvestTimes": 0,
+          "replantTimes": 2,
+          "weedEvents": 2,
+          "soilEvents": 0,
+          "organicInputTimes": 4,
+          "organicInputTotal": 4,
+          "machineryUsed": 2,
+          "machineryTotal": 6,
+          "testSampleCount": 1,
+          "testSampleTotal": 8,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": 18.6,
+              "fieldLocationY": 21.2
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -23.0,
+              "fieldLocationY": -0.1
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -22.7,
+              "fieldLocationY": 11.4
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 11.9,
+              "fieldLocationY": 24.1
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 1.1,
+              "fieldLocationY": 29.7
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 6.2,
+              "fieldLocationY": 6.3
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.2,
+              "fieldLocationY": 1.5
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 2.0,
+              "fieldLocationY": 1.2
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -15.8,
+              "fieldLocationY": 23.3
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -2.0,
+              "fieldLocationY": 6.4
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -15.7,
+              "fieldLocationY": 22.7
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -0.1,
+              "fieldLocationY": 9.4
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 18.4,
+              "fieldLocationY": 16.7
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -1.1,
+              "fieldLocationY": 0.8
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "isMainCrop": false,
+          "area": 1,
+          "yieldAmount": 2,
+          "fertilizerUsed": 0,
+          "irrigationTimes": 0,
+          "pesticideUsed": 0,
+          "diseaseEvents": 0,
+          "harvestTimes": 0,
+          "replantTimes": 0,
+          "weedEvents": 1,
+          "soilEvents": 0,
+          "organicInputTimes": 0,
+          "organicInputTotal": 0,
+          "machineryUsed": 1,
+          "machineryTotal": 1,
+          "testSampleCount": 0,
+          "testSampleTotal": 0,
+          "yieldRecords": [
+            {
+              "isHarvested": true,
+              "fieldLocationX": 1.3,
+              "fieldLocationY": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    "otherFarm": {
+      "id": 1,
+      "crops": [
+        {
+          "id": 22,
+          "isMainCrop": false,
+          "area": 23,
+          "yieldAmount": 12,
+          "fertilizerUsed": 3,
+          "irrigationTimes": 0,
+          "pesticideUsed": 3,
+          "diseaseEvents": 0,
+          "harvestTimes": 0,
+          "replantTimes": 1,
+          "weedEvents": 1,
+          "soilEvents": 0,
+          "organicInputTimes": 0,
+          "organicInputTotal": 0,
+          "machineryUsed": 0,
+          "machineryTotal": 1,
+          "testSampleCount": 4,
+          "testSampleTotal": 4,
+          "yieldRecords": [
+            {
+              "isHarvested": true,
+              "fieldLocationX": 8.3,
+              "fieldLocationY": 25.3
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 22.8,
+              "fieldLocationY": 0.5
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 1.6,
+              "fieldLocationY": 0.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -16.7,
+              "fieldLocationY": 24.6
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -22.5,
+              "fieldLocationY": 1.8
+            }
+          ]
+        },
+        {
+          "id": 30,
+          "isMainCrop": false,
+          "area": 18,
+          "yieldAmount": 11,
+          "fertilizerUsed": 1,
+          "irrigationTimes": 1,
+          "pesticideUsed": 1,
+          "diseaseEvents": 0,
+          "harvestTimes": 0,
+          "replantTimes": 0,
+          "weedEvents": 3,
+          "soilEvents": 0,
+          "organicInputTimes": 2,
+          "organicInputTotal": 2,
+          "machineryUsed": 3,
+          "machineryTotal": 3,
+          "testSampleCount": 1,
+          "testSampleTotal": 2,
+          "yieldRecords": [
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.6,
+              "fieldLocationY": -0.5
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -0.2,
+              "fieldLocationY": 25.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 1.1,
+              "fieldLocationY": 0.9
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -23.2,
+              "fieldLocationY": 7.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -6.1,
+              "fieldLocationY": 12.5
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "isMainCrop": false,
+          "area": 20,
+          "yieldAmount": 9,
+          "fertilizerUsed": 3,
+          "irrigationTimes": 1,
+          "pesticideUsed": 0,
+          "diseaseEvents": 1,
+          "harvestTimes": 1,
+          "replantTimes": 2,
+          "weedEvents": 0,
+          "soilEvents": 0,
+          "organicInputTimes": 1,
+          "organicInputTotal": 1,
+          "machineryUsed": 1,
+          "machineryTotal": 4,
+          "testSampleCount": 2,
+          "testSampleTotal": 4,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": 15.3,
+              "fieldLocationY": 20.4
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 1.7,
+              "fieldLocationY": 0.3
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -5.6,
+              "fieldLocationY": 3.9
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.4,
+              "fieldLocationY": -0.2
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 0.0,
+              "fieldLocationY": 0.0
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -15.6,
+              "fieldLocationY": 27.1
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 17.5,
+              "fieldLocationY": 23.6
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -22.9,
+              "fieldLocationY": 10.2
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "isMainCrop": true,
+          "area": 20,
+          "yieldAmount": 2,
+          "fertilizerUsed": 1,
+          "irrigationTimes": 2,
+          "pesticideUsed": 2,
+          "diseaseEvents": 0,
+          "harvestTimes": 0,
+          "replantTimes": 1,
+          "weedEvents": 4,
+          "soilEvents": 1,
+          "organicInputTimes": 0,
+          "organicInputTotal": 0,
+          "machineryUsed": 1,
+          "machineryTotal": 4,
+          "testSampleCount": 0,
+          "testSampleTotal": 1,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": 0.7,
+              "fieldLocationY": 0.5
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -0.6,
+              "fieldLocationY": 1.1
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 13.5,
+              "fieldLocationY": 25.1
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 0.0,
+              "fieldLocationY": 0.0
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 2.5,
+              "fieldLocationY": 1.3
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "isMainCrop": false,
+          "area": 3,
+          "yieldAmount": 0,
+          "fertilizerUsed": 0,
+          "irrigationTimes": 0,
+          "pesticideUsed": 0,
+          "diseaseEvents": 0,
+          "harvestTimes": 0,
+          "replantTimes": 0,
+          "weedEvents": 0,
+          "soilEvents": 0,
+          "organicInputTimes": 0,
+          "organicInputTotal": 0,
+          "machineryUsed": 0,
+          "machineryTotal": 0,
+          "testSampleCount": 0,
+          "testSampleTotal": 2,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": -13.7,
+              "fieldLocationY": 24.3
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -20.7,
+              "fieldLocationY": 16.7
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "isMainCrop": true,
+          "area": 39,
+          "yieldAmount": 44,
+          "fertilizerUsed": 7,
+          "irrigationTimes": 0,
+          "pesticideUsed": 3,
+          "diseaseEvents": 2,
+          "harvestTimes": 1,
+          "replantTimes": 4,
+          "weedEvents": 1,
+          "soilEvents": 0,
+          "organicInputTimes": 18,
+          "organicInputTotal": 19,
+          "machineryUsed": 13,
+          "machineryTotal": 15,
+          "testSampleCount": 0,
+          "testSampleTotal": 1,
+          "yieldRecords": [
+            {
+              "isHarvested": true,
+              "fieldLocationX": 1.0,
+              "fieldLocationY": 0.7
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -21.7,
+              "fieldLocationY": 11.2
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 2.7,
+              "fieldLocationY": 0.9
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -8.0,
+              "fieldLocationY": 8.9
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -0.4,
+              "fieldLocationY": 1.0
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 13.1,
+              "fieldLocationY": -1.1
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.9,
+              "fieldLocationY": 1.2
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -1.0,
+              "fieldLocationY": 0.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -0.6,
+              "fieldLocationY": 0.3
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -0.7,
+              "fieldLocationY": -1.2
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.1,
+              "fieldLocationY": 0.8
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 2.3,
+              "fieldLocationY": 0.9
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.2,
+              "fieldLocationY": 1.3
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -1.3,
+              "fieldLocationY": -0.2
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -2.8,
+              "fieldLocationY": 0.5
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.5,
+              "fieldLocationY": 0.7
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "isMainCrop": false,
+          "area": 7,
+          "yieldAmount": 2,
+          "fertilizerUsed": 0,
+          "irrigationTimes": 1,
+          "pesticideUsed": 1,
+          "diseaseEvents": 0,
+          "harvestTimes": 0,
+          "replantTimes": 1,
+          "weedEvents": 1,
+          "soilEvents": 1,
+          "organicInputTimes": 0,
+          "organicInputTotal": 0,
+          "machineryUsed": 1,
+          "machineryTotal": 2,
+          "testSampleCount": 0,
+          "testSampleTotal": 0,
+          "yieldRecords": [
+            {
+              "isHarvested": true,
+              "fieldLocationX": -1.1,
+              "fieldLocationY": 1.3
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 0.0,
+              "fieldLocationY": 0.0
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "isMainCrop": true,
+          "area": 28,
+          "yieldAmount": 19,
+          "fertilizerUsed": 7,
+          "irrigationTimes": 3,
+          "pesticideUsed": 3,
+          "diseaseEvents": 0,
+          "harvestTimes": 0,
+          "replantTimes": 0,
+          "weedEvents": 4,
+          "soilEvents": 0,
+          "organicInputTimes": 3,
+          "organicInputTotal": 3,
+          "machineryUsed": 5,
+          "machineryTotal": 12,
+          "testSampleCount": 2,
+          "testSampleTotal": 3,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": 5.8,
+              "fieldLocationY": 2.6
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -18.8,
+              "fieldLocationY": 16.1
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -6.9,
+              "fieldLocationY": 11.1
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -16.8,
+              "fieldLocationY": 22.7
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -0.5,
+              "fieldLocationY": 2.4
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -4.5,
+              "fieldLocationY": 7.1
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -1.6,
+              "fieldLocationY": 4.4
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -15.6,
+              "fieldLocationY": 22.5
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -2.3,
+              "fieldLocationY": -0.5
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 1.0,
+              "fieldLocationY": 6.2
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 3.8,
+              "fieldLocationY": 3.1
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -8.9,
+              "fieldLocationY": 4.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -0.4,
+              "fieldLocationY": 1.4
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 0.0,
+              "fieldLocationY": 0.0
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -1.0,
+              "fieldLocationY": 0.8
+            }
+          ]
+        },
+        {
+          "id": 29,
+          "isMainCrop": true,
+          "area": 32,
+          "yieldAmount": 13,
+          "fertilizerUsed": 6,
+          "irrigationTimes": 1,
+          "pesticideUsed": 3,
+          "diseaseEvents": 3,
+          "harvestTimes": 0,
+          "replantTimes": 1,
+          "weedEvents": 2,
+          "soilEvents": 1,
+          "organicInputTimes": 5,
+          "organicInputTotal": 5,
+          "machineryUsed": 4,
+          "machineryTotal": 9,
+          "testSampleCount": 0,
+          "testSampleTotal": 1,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": -5.1,
+              "fieldLocationY": 4.2
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -0.2,
+              "fieldLocationY": 1.2
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 1.8,
+              "fieldLocationY": 0.6
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 1.2,
+              "fieldLocationY": 0.6
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 22.9,
+              "fieldLocationY": 5.2
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -1.2,
+              "fieldLocationY": -0.4
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 4.4,
+              "fieldLocationY": 21.3
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 1.1,
+              "fieldLocationY": 1.7
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.2,
+              "fieldLocationY": 0.8
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 1.8,
+              "fieldLocationY": 0.8
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "isMainCrop": false,
+          "area": 20,
+          "yieldAmount": 18,
+          "fertilizerUsed": 1,
+          "irrigationTimes": 1,
+          "pesticideUsed": 0,
+          "diseaseEvents": 1,
+          "harvestTimes": 1,
+          "replantTimes": 0,
+          "weedEvents": 5,
+          "soilEvents": 0,
+          "organicInputTimes": 3,
+          "organicInputTotal": 5,
+          "machineryUsed": 3,
+          "machineryTotal": 3,
+          "testSampleCount": 3,
+          "testSampleTotal": 3,
+          "yieldRecords": [
+            {
+              "isHarvested": true,
+              "fieldLocationX": -0.5,
+              "fieldLocationY": 1.9
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -23.0,
+              "fieldLocationY": 4.1
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -0.9,
+              "fieldLocationY": -0.1
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -15.4,
+              "fieldLocationY": 27.3
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -0.4,
+              "fieldLocationY": 0.8
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -10.2,
+              "fieldLocationY": 26.7
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "isMainCrop": true,
+          "area": 26,
+          "yieldAmount": 8,
+          "fertilizerUsed": 0,
+          "irrigationTimes": 0,
+          "pesticideUsed": 3,
+          "diseaseEvents": 2,
+          "harvestTimes": 0,
+          "replantTimes": 0,
+          "weedEvents": 2,
+          "soilEvents": 0,
+          "organicInputTimes": 0,
+          "organicInputTotal": 0,
+          "machineryUsed": 4,
+          "machineryTotal": 6,
+          "testSampleCount": 0,
+          "testSampleTotal": 3,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": -23.5,
+              "fieldLocationY": 4.6
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -1.5,
+              "fieldLocationY": -1.1
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -3.4,
+              "fieldLocationY": 27.6
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 2.8,
+              "fieldLocationY": 13.4
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -1.1,
+              "fieldLocationY": -0.4
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.5,
+              "fieldLocationY": 1.2
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 2.6,
+              "fieldLocationY": 1.3
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 9.7,
+              "fieldLocationY": 26.5
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 1.8,
+              "fieldLocationY": 0.5
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "date": "2023-03-26",
+    "mainFarm": {
+      "id": 2,
+      "crops": [
+        {
+          "id": 14,
+          "isMainCrop": true,
+          "area": 10,
+          "yieldAmount": 6,
+          "fertilizerUsed": 0,
+          "irrigationTimes": 0,
+          "pesticideUsed": 2,
+          "diseaseEvents": 0,
+          "harvestTimes": 0,
+          "replantTimes": 2,
+          "weedEvents": 0,
+          "soilEvents": 0,
+          "organicInputTimes": 0,
+          "organicInputTotal": 1,
+          "machineryUsed": 3,
+          "machineryTotal": 3,
+          "testSampleCount": 0,
+          "testSampleTotal": 1,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": 21.0,
+              "fieldLocationY": 13.4
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -2.1,
+              "fieldLocationY": 0.3
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 7.1,
+              "fieldLocationY": 0.4
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.2,
+              "fieldLocationY": 4.6
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "isMainCrop": false,
+          "area": 14,
+          "yieldAmount": 2,
+          "fertilizerUsed": 0,
+          "irrigationTimes": 2,
+          "pesticideUsed": 0,
+          "diseaseEvents": 1,
+          "harvestTimes": 1,
+          "replantTimes": 0,
+          "weedEvents": 2,
+          "soilEvents": 0,
+          "organicInputTimes": 2,
+          "organicInputTotal": 2,
+          "machineryUsed": 0,
+          "machineryTotal": 1,
+          "testSampleCount": 0,
+          "testSampleTotal": 1,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": 22.3,
+              "fieldLocationY": 0.6
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 1.2,
+              "fieldLocationY": 0.8
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "isMainCrop": false,
+          "area": 31,
+          "yieldAmount": 28,
+          "fertilizerUsed": 0,
+          "irrigationTimes": 2,
+          "pesticideUsed": 4,
+          "diseaseEvents": 0,
+          "harvestTimes": 0,
+          "replantTimes": 2,
+          "weedEvents": 4,
+          "soilEvents": 1,
+          "organicInputTimes": 3,
+          "organicInputTotal": 3,
+          "machineryUsed": 8,
+          "machineryTotal": 15,
+          "testSampleCount": 3,
+          "testSampleTotal": 6,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": -2.3,
+              "fieldLocationY": 1.9
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.0,
+              "fieldLocationY": 0.0
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -0.5,
+              "fieldLocationY": 1.5
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 19.5,
+              "fieldLocationY": 44.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 12.9,
+              "fieldLocationY": 24.0
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 16.9,
+              "fieldLocationY": 22.4
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 11.0,
+              "fieldLocationY": 18.2
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 3.9,
+              "fieldLocationY": 16.9
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 7.7,
+              "fieldLocationY": 14.7
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -7.8,
+              "fieldLocationY": 19.6
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -17.4,
+              "fieldLocationY": 22.9
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -16.7,
+              "fieldLocationY": 18.9
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -20.6,
+              "fieldLocationY": 14.4
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 2.0,
+              "fieldLocationY": -0.1
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.0,
+              "fieldLocationY": 3.6
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 1.2,
+              "fieldLocationY": 1.7
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -3.7,
+              "fieldLocationY": 1.3
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -0.6,
+              "fieldLocationY": 0.9
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.1,
+              "fieldLocationY": 0.4
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -0.7,
+              "fieldLocationY": 5.9
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -2.3,
+              "fieldLocationY": 5.0
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "isMainCrop": false,
+          "area": 21,
+          "yieldAmount": 14,
+          "fertilizerUsed": 5,
+          "irrigationTimes": 1,
+          "pesticideUsed": 0,
+          "diseaseEvents": 0,
+          "harvestTimes": 0,
+          "replantTimes": 3,
+          "weedEvents": 1,
+          "soilEvents": 0,
+          "organicInputTimes": 4,
+          "organicInputTotal": 6,
+          "machineryUsed": 2,
+          "machineryTotal": 5,
+          "testSampleCount": 2,
+          "testSampleTotal": 4,
+          "yieldRecords": [
+            {
+              "isHarvested": true,
+              "fieldLocationX": 12.5,
+              "fieldLocationY": 23.6
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -10.8,
+              "fieldLocationY": 25.1
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -1.3,
+              "fieldLocationY": 0.7
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -1.2,
+              "fieldLocationY": -0.6
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 1.7,
+              "fieldLocationY": 0.2
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 2.7,
+              "fieldLocationY": 6.3
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 5.4,
+              "fieldLocationY": 2.8
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -23.4,
+              "fieldLocationY": 1.5
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -23.0,
+              "fieldLocationY": 0.5
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "isMainCrop": false,
+          "area": 15,
+          "yieldAmount": 11,
+          "fertilizerUsed": 0,
+          "irrigationTimes": 1,
+          "pesticideUsed": 4,
+          "diseaseEvents": 0,
+          "harvestTimes": 0,
+          "replantTimes": 0,
+          "weedEvents": 3,
+          "soilEvents": 0,
+          "organicInputTimes": 0,
+          "organicInputTotal": 0,
+          "machineryUsed": 1,
+          "machineryTotal": 3,
+          "testSampleCount": 3,
+          "testSampleTotal": 6,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": 12.1,
+              "fieldLocationY": 26.1
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -6.9,
+              "fieldLocationY": 20.4
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -18.8,
+              "fieldLocationY": 18.3
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -17.5,
+              "fieldLocationY": 19.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 23.3,
+              "fieldLocationY": -0.1
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 22.4,
+              "fieldLocationY": 1.9
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 23.2,
+              "fieldLocationY": 3.4
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -1.3,
+              "fieldLocationY": 0.5
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 3.6,
+              "fieldLocationY": 2.4
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "isMainCrop": true,
+          "area": 26,
+          "yieldAmount": 3,
+          "fertilizerUsed": 5,
+          "irrigationTimes": 0,
+          "pesticideUsed": 2,
+          "diseaseEvents": 0,
+          "harvestTimes": 0,
+          "replantTimes": 1,
+          "weedEvents": 2,
+          "soilEvents": 0,
+          "organicInputTimes": 0,
+          "organicInputTotal": 0,
+          "machineryUsed": 0,
+          "machineryTotal": 1,
+          "testSampleCount": 1,
+          "testSampleTotal": 5,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": -3.8,
+              "fieldLocationY": 25.8
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 9.7,
+              "fieldLocationY": 23.4
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 16.9,
+              "fieldLocationY": 20.4
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 1.0,
+              "fieldLocationY": 21.0
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -17.2,
+              "fieldLocationY": 19.7
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -17.2,
+              "fieldLocationY": 19.2
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "isMainCrop": true,
+          "area": 32,
+          "yieldAmount": 7,
+          "fertilizerUsed": 4,
+          "irrigationTimes": 2,
+          "pesticideUsed": 8,
+          "diseaseEvents": 1,
+          "harvestTimes": 6,
+          "replantTimes": 3,
+          "weedEvents": 1,
+          "soilEvents": 1,
+          "organicInputTimes": 1,
+          "organicInputTotal": 2,
+          "machineryUsed": 3,
+          "machineryTotal": 6,
+          "testSampleCount": 0,
+          "testSampleTotal": 0,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": 1.8,
+              "fieldLocationY": 0.3
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.0,
+              "fieldLocationY": 0.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -0.4,
+              "fieldLocationY": 1.9
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -1.6,
+              "fieldLocationY": 1.5
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -1.3,
+              "fieldLocationY": 1.2
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 1.6,
+              "fieldLocationY": 1.2
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "isMainCrop": false,
+          "area": 19,
+          "yieldAmount": 4,
+          "fertilizerUsed": 0,
+          "irrigationTimes": 0,
+          "pesticideUsed": 0,
+          "diseaseEvents": 1,
+          "harvestTimes": 0,
+          "replantTimes": 1,
+          "weedEvents": 1,
+          "soilEvents": 0,
+          "organicInputTimes": 2,
+          "organicInputTotal": 2,
+          "machineryUsed": 1,
+          "machineryTotal": 4,
+          "testSampleCount": 0,
+          "testSampleTotal": 0,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": -7.2,
+              "fieldLocationY": 10.5
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 10.2,
+              "fieldLocationY": 1.1
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -0.7,
+              "fieldLocationY": 0.2
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -7.4,
+              "fieldLocationY": 3.4
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "isMainCrop": true,
+          "area": 35,
+          "yieldAmount": 29,
+          "fertilizerUsed": 3,
+          "irrigationTimes": 0,
+          "pesticideUsed": 5,
+          "diseaseEvents": 0,
+          "harvestTimes": 0,
+          "replantTimes": 5,
+          "weedEvents": 3,
+          "soilEvents": 0,
+          "organicInputTimes": 8,
+          "organicInputTotal": 11,
+          "machineryUsed": 6,
+          "machineryTotal": 8,
+          "testSampleCount": 3,
+          "testSampleTotal": 5,
+          "yieldRecords": [
+            {
+              "isHarvested": true,
+              "fieldLocationX": 16.5,
+              "fieldLocationY": 23.9
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 12.9,
+              "fieldLocationY": 9.4
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -3.6,
+              "fieldLocationY": 14.3
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.5,
+              "fieldLocationY": 21.5
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -23.5,
+              "fieldLocationY": 9.5
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -22.6,
+              "fieldLocationY": 7.9
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -22.7,
+              "fieldLocationY": 12.4
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -21.9,
+              "fieldLocationY": 13.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 1.7,
+              "fieldLocationY": 0.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.6,
+              "fieldLocationY": 1.5
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 1.1,
+              "fieldLocationY": 0.5
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 5.0,
+              "fieldLocationY": 4.1
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -6.1,
+              "fieldLocationY": 3.4
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "isMainCrop": true,
+          "area": 32,
+          "yieldAmount": 8,
+          "fertilizerUsed": 1,
+          "irrigationTimes": 0,
+          "pesticideUsed": 4,
+          "diseaseEvents": 2,
+          "harvestTimes": 0,
+          "replantTimes": 1,
+          "weedEvents": 2,
+          "soilEvents": 1,
+          "organicInputTimes": 0,
+          "organicInputTotal": 0,
+          "machineryUsed": 1,
+          "machineryTotal": 4,
+          "testSampleCount": 2,
+          "testSampleTotal": 4,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": 18.3,
+              "fieldLocationY": 15.8
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 16.5,
+              "fieldLocationY": 22.9
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -16.8,
+              "fieldLocationY": 19.0
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 22.8,
+              "fieldLocationY": 2.5
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 1.6,
+              "fieldLocationY": 0.6
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -1.6,
+              "fieldLocationY": 1.2
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -1.8,
+              "fieldLocationY": 0.4
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 6.9,
+              "fieldLocationY": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    "otherFarm": {
+      "id": 1,
+      "crops": [
+        {
+          "id": 31,
+          "isMainCrop": false,
+          "area": 12,
+          "yieldAmount": 4,
+          "fertilizerUsed": 0,
+          "irrigationTimes": 1,
+          "pesticideUsed": 0,
+          "diseaseEvents": 1,
+          "harvestTimes": 0,
+          "replantTimes": 1,
+          "weedEvents": 1,
+          "soilEvents": 0,
+          "organicInputTimes": 0,
+          "organicInputTotal": 0,
+          "machineryUsed": 2,
+          "machineryTotal": 3,
+          "testSampleCount": 0,
+          "testSampleTotal": 2,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": 2.0,
+              "fieldLocationY": 0.5
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -0.4,
+              "fieldLocationY": 26.1
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -20.5,
+              "fieldLocationY": 15.7
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 1.0,
+              "fieldLocationY": 0.3
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -0.7,
+              "fieldLocationY": 0.3
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "isMainCrop": false,
+          "area": 13,
+          "yieldAmount": 5,
+          "fertilizerUsed": 0,
+          "irrigationTimes": 0,
+          "pesticideUsed": 1,
+          "diseaseEvents": 1,
+          "harvestTimes": 0,
+          "replantTimes": 0,
+          "weedEvents": 2,
+          "soilEvents": 0,
+          "organicInputTimes": 0,
+          "organicInputTotal": 0,
+          "machineryUsed": 1,
+          "machineryTotal": 3,
+          "testSampleCount": 1,
+          "testSampleTotal": 1,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": 2.7,
+              "fieldLocationY": 16.7
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -21.9,
+              "fieldLocationY": 10.8
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -1.2,
+              "fieldLocationY": 0.4
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 1.7,
+              "fieldLocationY": 0.6
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "isMainCrop": false,
+          "area": 14,
+          "yieldAmount": 5,
+          "fertilizerUsed": 2,
+          "irrigationTimes": 1,
+          "pesticideUsed": 1,
+          "diseaseEvents": 0,
+          "harvestTimes": 0,
+          "replantTimes": 0,
+          "weedEvents": 3,
+          "soilEvents": 0,
+          "organicInputTimes": 0,
+          "organicInputTotal": 0,
+          "machineryUsed": 1,
+          "machineryTotal": 2,
+          "testSampleCount": 1,
+          "testSampleTotal": 4,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": -17.0,
+              "fieldLocationY": 21.5
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -12.6,
+              "fieldLocationY": 22.5
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -21.2,
+              "fieldLocationY": 14.5
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -1.8,
+              "fieldLocationY": 1.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 1.7,
+              "fieldLocationY": 0.5
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -22.3,
+              "fieldLocationY": 0.4
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "isMainCrop": false,
+          "area": 7,
+          "yieldAmount": 0,
+          "fertilizerUsed": 0,
+          "irrigationTimes": 0,
+          "pesticideUsed": 1,
+          "diseaseEvents": 0,
+          "harvestTimes": 0,
+          "replantTimes": 1,
+          "weedEvents": 1,
+          "soilEvents": 1,
+          "organicInputTimes": 0,
+          "organicInputTotal": 0,
+          "machineryUsed": 0,
+          "machineryTotal": 1,
+          "testSampleCount": 0,
+          "testSampleTotal": 1,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": 2.6,
+              "fieldLocationY": 1.2
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -22.1,
+              "fieldLocationY": -0.2
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "isMainCrop": false,
+          "area": 28,
+          "yieldAmount": 20,
+          "fertilizerUsed": 5,
+          "irrigationTimes": 2,
+          "pesticideUsed": 5,
+          "diseaseEvents": 2,
+          "harvestTimes": 0,
+          "replantTimes": 0,
+          "weedEvents": 2,
+          "soilEvents": 0,
+          "organicInputTimes": 5,
+          "organicInputTotal": 5,
+          "machineryUsed": 0,
+          "machineryTotal": 2,
+          "testSampleCount": 5,
+          "testSampleTotal": 10,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": 1.0,
+              "fieldLocationY": 1.2
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -6.7,
+              "fieldLocationY": 26.1
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 21.3,
+              "fieldLocationY": 13.6
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -20.2,
+              "fieldLocationY": 16.2
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -20.6,
+              "fieldLocationY": 17.3
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -19.0,
+              "fieldLocationY": 16.5
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -18.4,
+              "fieldLocationY": 19.8
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -15.4,
+              "fieldLocationY": 23.6
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -22.9,
+              "fieldLocationY": 8.0
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -19.5,
+              "fieldLocationY": 17.8
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 23.7,
+              "fieldLocationY": 2.1
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 1.6,
+              "fieldLocationY": 0.7
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "isMainCrop": true,
+          "area": 35,
+          "yieldAmount": 31,
+          "fertilizerUsed": 3,
+          "irrigationTimes": 2,
+          "pesticideUsed": 0,
+          "diseaseEvents": 4,
+          "harvestTimes": 0,
+          "replantTimes": 3,
+          "weedEvents": 1,
+          "soilEvents": 0,
+          "organicInputTimes": 13,
+          "organicInputTotal": 15,
+          "machineryUsed": 9,
+          "machineryTotal": 16,
+          "testSampleCount": 0,
+          "testSampleTotal": 1,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": -1.8,
+              "fieldLocationY": 0.6
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 7.2,
+              "fieldLocationY": 5.9
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -3.6,
+              "fieldLocationY": 26.8
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -2.7,
+              "fieldLocationY": 15.9
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 15.9,
+              "fieldLocationY": 2.1
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.7,
+              "fieldLocationY": 1.2
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -0.4,
+              "fieldLocationY": 1.4
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 1.3,
+              "fieldLocationY": 1.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -0.2,
+              "fieldLocationY": 0.2
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 1.7,
+              "fieldLocationY": 0.8
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -0.5,
+              "fieldLocationY": 0.1
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -1.1,
+              "fieldLocationY": 1.2
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -1.2,
+              "fieldLocationY": 1.2
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -1.7,
+              "fieldLocationY": 1.2
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -0.9,
+              "fieldLocationY": 1.2
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 0.9,
+              "fieldLocationY": 2.8
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -1.1,
+              "fieldLocationY": 7.7
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "isMainCrop": true,
+          "area": 35,
+          "yieldAmount": 17,
+          "fertilizerUsed": 6,
+          "irrigationTimes": 1,
+          "pesticideUsed": 10,
+          "diseaseEvents": 1,
+          "harvestTimes": 2,
+          "replantTimes": 2,
+          "weedEvents": 0,
+          "soilEvents": 0,
+          "organicInputTimes": 0,
+          "organicInputTotal": 1,
+          "machineryUsed": 4,
+          "machineryTotal": 7,
+          "testSampleCount": 3,
+          "testSampleTotal": 5,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": -0.4,
+              "fieldLocationY": 8.3
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 18.5,
+              "fieldLocationY": 16.8
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 19.0,
+              "fieldLocationY": 18.9
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -23.2,
+              "fieldLocationY": 9.9
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -21.8,
+              "fieldLocationY": 11.9
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -16.3,
+              "fieldLocationY": 21.9
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.4,
+              "fieldLocationY": 1.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.6,
+              "fieldLocationY": 0.2
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -0.7,
+              "fieldLocationY": 2.9
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -2.0,
+              "fieldLocationY": 0.1
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 4.8,
+              "fieldLocationY": 5.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 7.4,
+              "fieldLocationY": 5.7
+            }
+          ]
+        },
+        {
+          "id": 29,
+          "isMainCrop": true,
+          "area": 37,
+          "yieldAmount": 23,
+          "fertilizerUsed": 4,
+          "irrigationTimes": 1,
+          "pesticideUsed": 4,
+          "diseaseEvents": 2,
+          "harvestTimes": 0,
+          "replantTimes": 1,
+          "weedEvents": 1,
+          "soilEvents": 0,
+          "organicInputTimes": 3,
+          "organicInputTotal": 3,
+          "machineryUsed": 7,
+          "machineryTotal": 12,
+          "testSampleCount": 2,
+          "testSampleTotal": 2,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": 0.9,
+              "fieldLocationY": -0.2
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 0.0,
+              "fieldLocationY": 1.0
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 8.0,
+              "fieldLocationY": 12.4
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -16.2,
+              "fieldLocationY": 20.1
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -14.7,
+              "fieldLocationY": 23.9
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -0.5,
+              "fieldLocationY": 0.8
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.4,
+              "fieldLocationY": 1.5
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.6,
+              "fieldLocationY": 0.4
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.0,
+              "fieldLocationY": 1.2
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -0.2,
+              "fieldLocationY": 2.2
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -0.6,
+              "fieldLocationY": 0.9
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -1.2,
+              "fieldLocationY": 5.4
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -1.7,
+              "fieldLocationY": 5.9
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -19.9,
+              "fieldLocationY": -2.2
+            }
+          ]
+        },
+        {
+          "id": 30,
+          "isMainCrop": true,
+          "area": 26,
+          "yieldAmount": 7,
+          "fertilizerUsed": 2,
+          "irrigationTimes": 2,
+          "pesticideUsed": 4,
+          "diseaseEvents": 0,
+          "harvestTimes": 0,
+          "replantTimes": 1,
+          "weedEvents": 3,
+          "soilEvents": 0,
+          "organicInputTimes": 1,
+          "organicInputTotal": 2,
+          "machineryUsed": 3,
+          "machineryTotal": 5,
+          "testSampleCount": 0,
+          "testSampleTotal": 3,
+          "yieldRecords": [
+            {
+              "isHarvested": true,
+              "fieldLocationX": 0.0,
+              "fieldLocationY": 0.0
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 12.1,
+              "fieldLocationY": 22.2
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 20.2,
+              "fieldLocationY": 15.8
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 14.5,
+              "fieldLocationY": 21.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -7.1,
+              "fieldLocationY": 8.8
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 2.2,
+              "fieldLocationY": 0.1
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 0.7,
+              "fieldLocationY": 1.4
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -0.2,
+              "fieldLocationY": 0.6
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "isMainCrop": true,
+          "area": 28,
+          "yieldAmount": 6,
+          "fertilizerUsed": 1,
+          "irrigationTimes": 3,
+          "pesticideUsed": 3,
+          "diseaseEvents": 2,
+          "harvestTimes": 0,
+          "replantTimes": 2,
+          "weedEvents": 4,
+          "soilEvents": 0,
+          "organicInputTimes": 2,
+          "organicInputTotal": 2,
+          "machineryUsed": 2,
+          "machineryTotal": 8,
+          "testSampleCount": 0,
+          "testSampleTotal": 6,
+          "yieldRecords": [
+            {
+              "isHarvested": false,
+              "fieldLocationX": 0.0,
+              "fieldLocationY": 0.0
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -2.7,
+              "fieldLocationY": 1.0
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -0.1,
+              "fieldLocationY": 0.1
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 12.3,
+              "fieldLocationY": 25.9
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 10.4,
+              "fieldLocationY": 26.0
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 9.9,
+              "fieldLocationY": 24.1
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 1.3,
+              "fieldLocationY": 8.9
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 0.1,
+              "fieldLocationY": 8.7
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -16.3,
+              "fieldLocationY": 21.5
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 23.4,
+              "fieldLocationY": 5.1
+            },
+            {
+              "isHarvested": true,
+              "fieldLocationX": -1.3,
+              "fieldLocationY": -0.1
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": 2.3,
+              "fieldLocationY": 4.0
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -4.0,
+              "fieldLocationY": 0.1
+            },
+            {
+              "isHarvested": false,
+              "fieldLocationX": -22.8,
+              "fieldLocationY": 0.4
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
