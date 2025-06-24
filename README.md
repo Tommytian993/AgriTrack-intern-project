@@ -21,7 +21,7 @@ AgriTrack is a agricultural data storing and visualization system designed to tr
 ```
 GET /api/v1/cropSummary/{cropID}
 ```
-Returns comprehensive data for a specific crop including:
+Returns data for a specific crop including:
 - crop id
 - farm data
 - harvest events
