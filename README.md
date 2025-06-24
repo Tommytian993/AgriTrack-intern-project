@@ -2,28 +2,11 @@
 
 ## Project Overview
 
-AgriTrack is a comprehensive agricultural data management system designed to track crop yields, farm operations, and harvest data. This project was developed as part of my internship experience, focusing on modern web development practices and data analytics.
+AgriTrack is a agricultural data storing and visualization system designed to track crop yields, farm operations, and harvest data. This project was developed as part of my internship experience, focusing on modern web development practices and data analytics.
 
 ## Features
-
-- **Crop Management**: Track individual crops with detailed performance metrics
-- **Farm Operations**: Monitor farm activities including irrigation, fertilization, and pest control
-- **Harvest Tracking**: Record harvest data with location-based yield information
-- **Data Analytics**: RESTful API for data retrieval and analysis
-- **Modern Tech Stack**: Django backend with PostgreSQL database
-
-## Technology Stack
-
-### Backend
-- **Framework**: Django 4.x with Django REST Framework
-- **Database**: PostgreSQL with custom agricultural schema
-- **API**: RESTful endpoints for data access
-- **Authentication**: Django's built-in authentication system
-
-### Frontend (Planned)
-- **Framework**: Angular/React (to be implemented)
-- **UI**: Modern responsive design
-- **Charts**: Data visualization for agricultural metrics
+- Data visualization for agricultural data of specific crop or harvest events
+- Tech Stack: Angular, Django, PostgreSQL
 
 ## Database Schema
 
