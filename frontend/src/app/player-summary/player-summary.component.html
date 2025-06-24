@@ -1,12 +1,12 @@
-<h1>Player Summary Page</h1>
+<h1>Crop Summary Page</h1>
 <div>
-  <!-- select player via id-->
+  <!-- select crop via id-->
   <mat-form-field appearance="fill">
-    <mat-label>Select Player ID</mat-label>
+    <mat-label>Select Crop ID</mat-label>
     <mat-select
-      [(ngModel)]="playerID"
+      [(ngModel)]="cropID"
       [ngModelOptions]="{ standalone: true }"
-      (selectionChange)="changePlayer()"
+      (selectionChange)="changeCrop()"
     >
       <mat-option
         *ngFor="let _ of [].constructor(31); let i = index"
@@ -17,24 +17,43 @@
     </mat-select>
   </mat-form-field>
 
-  <!-- selecting the date and confirm the game -->
-  <mat-form-field appearance="fill" *ngIf="gameDates.length > 0">
-    <mat-label>Select Game Date</mat-label>
+  <!-- selecting the date and confirm the harvest -->
+  <mat-form-field appearance="fill" *ngIf="harvestDates.length > 0">
+    <mat-label>Select Harvest Date</mat-label>
     <mat-select
-      [(ngModel)]="selectedGameDate"
+      [(ngModel)]="selectedHarvestDate"
       [ngModelOptions]="{ standalone: true }"
-      (selectionChange)="changeGameDate()"
+      (selectionChange)="changeHarvestDate()"
     >
-      <mat-option *ngFor="let date of gameDates" [value]="date">
+      <mat-option *ngFor="let date of harvestDates" [value]="date">
         {{ date }}
       </mat-option>
     </mat-select>
   </mat-form-field>
 </div>
 
+<div *ngIf="cropSummary">
+  <h2>{{ cropSummary.name }}</h2>
+</div>
+
+<div class="stats-container" *ngIf="harvestStats">
+  <h2>Harvest Stats for {{ selectedHarvestDate }}</h2>
+  <mat-card>
+    <mat-card-content>
+      <ul>
+        <ng-container *ngFor="let key of objectKeys(harvestStats)">
+          <li *ngIf="key !== 'yieldRecords' && key !== 'yield_records'">
+            <strong>{{ key }}:</strong> {{ harvestStats[key] }}
+          </li>
+        </ng-container>
+      </ul>
+    </mat-card-content>
+  </mat-card>
+</div>
+
 <!-- flexbox container for stats and court diagram -->
 <div class="stats-court-container">
-  <!-- player statistics displaying -->
+  <!-- crop statistics displaying -->
   <div class="stats-container" *ngIf="gameStats">
     <h2>Game Stats for {{ selectedGameDate }}</h2>
     <mat-card>

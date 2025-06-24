@@ -1,23 +1,23 @@
-import {NgModule} from '@angular/core';
-import {CommonModule} from '@angular/common';
-import {PlayerSummaryComponent} from './player-summary.component';
-import {routing} from 'app/player-summary/player-summary.routing';
-import {MatToolbarModule} from '@angular/material/toolbar';
-import {MatCardModule} from '@angular/material/card';
-import {FlexModule} from '@angular/flex-layout';
-import {MatListModule} from '@angular/material/list';
-import {MatRadioModule} from '@angular/material/radio';
-import {MatIconModule} from '@angular/material/icon';
-import {MatButtonModule} from '@angular/material/button';
-import {MatSelectModule} from '@angular/material/select';
-import {MatOptionModule} from '@angular/material/core';
-import {FormsModule, ReactiveFormsModule} from '@angular/forms';
-import {PlayersService} from 'app/_services/players.service';
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { CropSummaryComponent } from './player-summary.component';
+import { routing } from 'app/player-summary/player-summary.routing';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatCardModule } from '@angular/material/card';
+import { FlexModule } from '@angular/flex-layout';
+import { MatListModule } from '@angular/material/list';
+import { MatRadioModule } from '@angular/material/radio';
+import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
+import { MatSelectModule } from '@angular/material/select';
+import { MatOptionModule } from '@angular/material/core';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { CropsService } from 'app/_services/players.service';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
- 
 @NgModule({
-  declarations: [PlayerSummaryComponent],
+  declarations: [CropSummaryComponent],
   imports: [
     FlexLayoutModule,
     CommonModule,
@@ -31,10 +31,11 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     MatButtonModule,
     MatSelectModule,
     MatOptionModule,
+    MatFormFieldModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
   ],
-  providers: [PlayersService],
-  bootstrap: [PlayerSummaryComponent],
+  providers: [CropsService],
+  bootstrap: [CropSummaryComponent],
 })
-export class PlayerSummaryModule { }
+export class CropSummaryModule {}
