@@ -9,9 +9,6 @@ AgriTrack is a agricultural data storing and visualization system designed to tr
 - Tech Stack: Angular, Django, PostgreSQL
 
 ## Database Schema
-
-The system uses a domain-specific schema designed for agricultural data:
-
 - **Farms**: Agricultural land units
 - **Crops**: Plant species being cultivated
 - **Harvests**: Collection events with date and location
