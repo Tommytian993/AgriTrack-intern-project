@@ -2,9 +2,11 @@
 
 ## Project Overview
 
-AgriTrack is a data storing and visualization site, that aims to help track crop yields, farm operations, and harvest data for farmers. This project was developed during my last internship at Cool Crops from Feb 2024 to May 2024, this oppotunity allowed me to learn more about web development and agriculture data analytics.
+AgriTrack is a data storing and visualization site, that aims to help farmers track crop yields, farm operations, and harvest data.
 
-(Tech Stack: Angular, Django, PostgreSQL)
+This project was developed during my last internship at Cool Crops from Feb 2024 to May 2024, this oppotunity allowed me to learn more about web development and agriculture data analytics.
+
+Tech Stack: Angular, Django, PostgreSQL
 
 ## Database Schema
 - Farms: Contain ID and Name of farms
