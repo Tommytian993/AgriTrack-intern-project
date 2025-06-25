@@ -11,9 +11,9 @@ AgriTrack is a agricultural data storing and visualization system designed to tr
 ## Database Schema
 - **Farms**: Agricultural land units
 - **Crops**: Plant species being cultivated
-- **Harvests**: Collection events with date and location
-- **HarvestCrops**: Individual crop performance during harvests
-- **YieldRecords**: Detailed yield data with geographic coordinates
+- **Harvests**: Harvest event, with date, location and id.
+- **HarvestCrops**: Specific crop performance during a harvest event
+- **YieldRecords**: Geographic coordinates of the harvested crop
 
 ## API Endpoints
 
@@ -21,38 +21,35 @@ AgriTrack is a agricultural data storing and visualization system designed to tr
 ```
 GET /api/v1/cropSummary/{cropID}
 ```
-Returns data for a specific crop including:
+Returns: 
 - crop id
 - farm data
 - harvest events
 - performance and specific harvest data
-- Geographic yield records
+- yield geography
 
 ## Installation & Setup
-
-### Prerequisites
 - Python 3.8+
 - PostgreSQL 12+
 - pip
 
 ### Backend Setup
-1. Clone the repository
-2. Install dependencies:
+1 Clone repo
+2 Dependencies
    ```bash
    cd backend
    pip install -r requirements.txt
    ```
-3. Configure database:
+3 Database Configuration
    ```bash
-   # Create PostgreSQL database and user
    createdb agriproject
    createuser agriproject
    ```
-4. Run migrations:
+4 Create migrations
    ```bash
    python manage.py migrate
    ```
-5. Start the development server:
+5 Run Server
    ```bash
    python manage.py runserver
    ```
