@@ -1,11 +1,10 @@
 # AgriTrack - Agricultural Data Management System
 
-## Project Features
+## Project Overview
 
-AgriTrack is a agricultural data storing and visualization system designed to track crop yields, farm operations, and harvest data. This project was developed as part of my internship experience, focusing on modern web development practices and data analytics.
+AgriTrack is a data storing and visualization site, that aims to help track crop yields, farm operations, and harvest data for farmers. This project was developed during my last internship at Cool Crops from Feb 2024 to May 2024, this oppotunity allowed me to learn more about web development and agriculture data analytics.
 
-- Data visualization for agricultural data of specific crop or harvest events
-- Tech Stack: Angular, Django, PostgreSQL
+(Tech Stack: Angular, Django, PostgreSQL)
 
 ## Database Schema
 - Farms: Contain ID and Name of farms
