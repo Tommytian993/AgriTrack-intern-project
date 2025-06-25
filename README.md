@@ -8,11 +8,11 @@ AgriTrack is a agricultural data storing and visualization system designed to tr
 - Tech Stack: Angular, Django, PostgreSQL
 
 ## Database Schema
-- **Farms**: Agricultural land units
-- **Crops**: Plant species being cultivated
-- **Harvests**: Harvest event, with date, location and id.
-- **HarvestCrops**: Specific crop performance during a harvest event
-- **YieldRecords**: Geographic coordinates of the harvested crop
+- Farms: Contain ID and Name of farms
+- Crops: Contain ID and Name of crops
+- Harvests: Harvest event, with date, location and id.
+- HarvestCrops: Specific crop performance during a harvest event
+- YieldRecords: Geographic coordinates of the harvested crop
 
 ## API Endpoints
 
