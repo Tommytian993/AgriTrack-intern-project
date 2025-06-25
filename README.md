@@ -2,11 +2,11 @@
 
 ## Project Overview
 
-AgriTrack is a data storing and visualization site, that aims to help farmers track crop yields, farm operations, and harvest data.
+AgriTrack is a data storing and visualization site, developed with Angular Django and PostgreSQL, that aims to help farmers track to farm operations, crop yields, harvest data and etc.
 
 This project was developed during my last internship at Cool Crops from Feb 2024 to May 2024, this oppotunity allowed me to learn more about web development and agriculture data analytics.
 
-Tech Stack: Angular, Django, PostgreSQL
+
 
 ## Database Schema
 - Farms: Contain ID and Name of farms
@@ -28,28 +28,27 @@ Returns:
 - performance and specific harvest data
 - yield geography
 
-## Installation & Setup
-- Python 3.8+
-- PostgreSQL 12+
+## Install relevent packages and Run
+- Python
+- PostgreSQL
 - pip
 
-### Backend Setup
-1 Clone repo
-2 Dependencies
+Clone repo
+Dependencies
    ```bash
    cd backend
    pip install -r requirements.txt
    ```
-3 Database Configuration
+Database Configuration
    ```bash
    createdb agriproject
    createuser agriproject
    ```
-4 Create migrations
+Create migrations
    ```bash
    python manage.py migrate
    ```
-5 Run Server
+Run Server
    ```bash
    python manage.py runserver
    ```
