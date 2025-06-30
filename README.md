@@ -1,4 +1,4 @@
-# AgriTrack - Agricultural Data Management System
+# AgriTrack
 
 ## Project Overview
 
