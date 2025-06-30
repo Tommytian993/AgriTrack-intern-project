@@ -1,4 +1,4 @@
-<img width="1271" alt="Screenshot 2025-06-30 at 1 08 16 PM" src="https://github.com/user-attachments/assets/f82e22a6-e97a-4dcb-aa33-b5f84b03fc60" />
+<img width="871" alt="Screenshot 2025-06-30 at 5 07 08 PM" src="https://github.com/user-attachments/assets/7b2f4ad1-c7c8-4d3d-9d6f-7e818fb5b4c8" />
 
 ## Project Overview
 
