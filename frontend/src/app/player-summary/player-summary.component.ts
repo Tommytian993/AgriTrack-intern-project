@@ -62,6 +62,26 @@ export class CropSummaryComponent implements OnInit, OnDestroy {
       },
     },
   };
+  yieldGridData: ChartData<'scatter'> = { datasets: [] };
+  yieldGridOptions: ChartOptions = {
+    responsive: true,
+    maintainAspectRatio: true,
+    scales: {
+      x: {
+        min: -25,
+        max: 25,
+        title: { display: true, text: 'Field X' },
+      },
+      y: {
+        min: -5,
+        max: 30,
+        title: { display: true, text: 'Field Y' },
+      },
+    },
+    plugins: {
+      legend: { display: false },
+    },
+  };
 
   constructor(
     protected cdr: ChangeDetectorRef,
@@ -248,6 +268,32 @@ export class CropSummaryComponent implements OnInit, OnDestroy {
         } else {
           // 没有有效数据时，清空饼图
           this.eventPieChartDatasets = { labels: [], datasets: [] };
+        }
+
+        // 田块分布图
+        if (
+          selectedHarvest &&
+          selectedHarvest.yieldRecords &&
+          selectedHarvest.yieldRecords.length
+        ) {
+          this.yieldGridData = {
+            datasets: [
+              {
+                label: 'Yield Points',
+                data: selectedHarvest.yieldRecords.map((r) => ({
+                  x: r.fieldLocationX,
+                  y: r.fieldLocationY,
+                })),
+                backgroundColor: selectedHarvest.yieldRecords.map((r) =>
+                  r.isHarvested ? '#36A2EB' : '#FF6384'
+                ),
+                pointRadius: 6,
+                showLine: false,
+              },
+            ],
+          };
+        } else {
+          this.yieldGridData = { datasets: [] };
         }
       }
     }

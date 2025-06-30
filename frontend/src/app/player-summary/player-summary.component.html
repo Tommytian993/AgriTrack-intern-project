@@ -237,7 +237,7 @@
       [data]="eventPieChartDatasets"
       [options]="eventPieChartOptions"
       [type]="'pie'"
-      style="height: 300px; width: 100%"
+      style="height: 180px; width: 180px"
     >
     </canvas>
   </div>
@@ -255,5 +255,19 @@
       chartType="line"
     >
     </canvas>
+  </div>
+  <!-- 田块分布图 -->
+  <div
+    class="chart-container"
+    *ngIf="yieldGridData && yieldGridData.datasets[0]?.data?.length"
+  >
+    <h3>Yield Grid (Harvested: Blue, Failed: Red)</h3>
+    <canvas
+      baseChart
+      [data]="yieldGridData"
+      [options]="yieldGridOptions"
+      [type]="'scatter'"
+      style="height: 220px; width: 220px"
+    ></canvas>
   </div>
 </div>
