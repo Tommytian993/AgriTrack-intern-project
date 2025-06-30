@@ -1,4 +1,3 @@
-# AgriTrack
 <img width="1271" alt="Screenshot 2025-06-30 at 1 08 16 PM" src="https://github.com/user-attachments/assets/f82e22a6-e97a-4dcb-aa33-b5f84b03fc60" />
 
 ## Project Overview
