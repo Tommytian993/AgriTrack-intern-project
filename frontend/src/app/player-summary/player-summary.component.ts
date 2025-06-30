@@ -29,6 +29,18 @@ export class CropSummaryComponent implements OnInit, OnDestroy {
   courtHeight: number = 600;
   backgroundImage = new Image();
   objectKeys = Object.keys;
+  // 可视化相关变量
+  statCards: { label: string; value: any }[] = [];
+  barChartLabels: string[] = [];
+  barChartData: any[] = [];
+  barChartOptions = { responsive: true };
+  pieChartLabels: string[] = [];
+  pieChartData: number[] = [];
+  pieChartOptions = { responsive: true };
+  lineChartLabels: string[] = [];
+  lineChartData: any[] = [];
+  lineChartOptions = { responsive: true };
+  irrigationProgress = 0;
 
   constructor(
     protected cdr: ChangeDetectorRef,
@@ -85,6 +97,87 @@ export class CropSummaryComponent implements OnInit, OnDestroy {
       );
       if (selectedHarvest) {
         this.harvestStats = selectedHarvest;
+        // 统计卡片
+        this.statCards = [
+          { label: 'Area', value: selectedHarvest.area },
+          { label: 'Yield Amount', value: selectedHarvest.yieldAmount },
+          { label: 'Fertilizer Used', value: selectedHarvest.fertilizerUsed },
+          { label: 'Irrigation Times', value: selectedHarvest.irrigationTimes },
+          { label: 'Moisture', value: selectedHarvest.moisture },
+          { label: 'Pesticide Used', value: selectedHarvest.pesticideUsed },
+        ];
+        // 柱状图
+        this.barChartLabels = [
+          'Area',
+          'Yield Amount',
+          'Fertilizer Used',
+          'Irrigation Times',
+          'Moisture',
+          'Pesticide Used',
+        ];
+        this.barChartData = [
+          {
+            data: [
+              selectedHarvest.area,
+              selectedHarvest.yieldAmount,
+              selectedHarvest.fertilizerUsed,
+              selectedHarvest.irrigationTimes,
+              selectedHarvest.moisture,
+              selectedHarvest.pesticideUsed,
+            ],
+            label: 'Harvest Data',
+          },
+        ];
+        // 饼图 - 修复数据逻辑
+        this.pieChartLabels = [
+          'Fertilizer Used',
+          'Pesticide Used',
+          'Organic Input',
+          'Machinery',
+        ];
+        const fertilizer = selectedHarvest.fertilizerUsed || 0;
+        const pesticide = selectedHarvest.pesticideUsed || 0;
+        const organic = selectedHarvest.organicInputTotal || 0;
+        const machinery = selectedHarvest.machineryTotal || 0;
+
+        this.pieChartData = [fertilizer, pesticide, organic, machinery];
+
+        // 确保饼图数据不为空
+        if (this.pieChartData.every((val) => val === 0)) {
+          this.pieChartData = [1, 1, 1, 1]; // 默认显示
+          this.pieChartLabels = ['No Data Available'];
+        }
+
+        // 折线图（如有历史）
+        if (this.cropSummary.harvests.length > 1) {
+          this.lineChartLabels = this.cropSummary.harvests.map((h) => h.date);
+          this.lineChartData = [
+            {
+              data: this.cropSummary.harvests.map((h) => h.yieldAmount),
+              label: 'Yield Amount',
+            },
+            {
+              data: this.cropSummary.harvests.map((h) => h.moisture || 0),
+              label: 'Moisture',
+            },
+          ];
+        } else {
+          this.lineChartLabels = [];
+          this.lineChartData = [];
+        }
+
+        // 进度条 - 修复计算逻辑
+        const irrigationTimes = selectedHarvest.irrigationTimes || 0;
+        const targetIrrigation = 10; // 目标灌溉次数
+        this.irrigationProgress = Math.min(
+          100,
+          (irrigationTimes / targetIrrigation) * 100
+        );
+
+        // 确保进度条有值
+        if (this.irrigationProgress === 0 && irrigationTimes > 0) {
+          this.irrigationProgress = 10; // 至少显示10%
+        }
       }
     }
   }

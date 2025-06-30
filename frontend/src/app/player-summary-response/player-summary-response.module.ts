@@ -17,6 +17,9 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatSelectModule } from '@angular/material/select';
 import { MatOptionModule } from '@angular/material/core';
 import { CropsService } from 'app/_services/players.service';
+import { NgChartsModule } from 'ng2-charts';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
+import { MatTableModule } from '@angular/material/table';
 
 @NgModule({
   declarations: [CropSummaryResponseComponent],
@@ -38,6 +41,9 @@ import { CropsService } from 'app/_services/players.service';
     MatDatepickerModule,
     MatSelectModule,
     MatOptionModule,
+    NgChartsModule,
+    MatProgressBarModule,
+    MatTableModule,
   ],
   providers: [CropsService],
   bootstrap: [CropSummaryResponseComponent],

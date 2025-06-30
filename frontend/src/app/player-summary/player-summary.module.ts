@@ -15,6 +15,8 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CropsService } from 'app/_services/players.service';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { NgChartsModule } from 'ng2-charts';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
 
 @NgModule({
   declarations: [CropSummaryComponent],
@@ -34,6 +36,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     MatFormFieldModule,
     FormsModule,
     ReactiveFormsModule,
+    NgChartsModule,
+    MatProgressBarModule,
   ],
   providers: [CropsService],
   bootstrap: [CropSummaryComponent],

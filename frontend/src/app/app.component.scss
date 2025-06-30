@@ -22,3 +22,8 @@ app-component {
     }
   }
 }
+
+:host {
+  display: block;
+  height: 100%;
+}

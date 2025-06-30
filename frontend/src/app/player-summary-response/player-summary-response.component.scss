@@ -7,3 +7,31 @@ player-summary-response-component {
     margin-right: 20px;
   }
 }
+
+.main-layout {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.left-content {
+  flex: 1 1 0;
+}
+
+.right-panel {
+  width: 480px;
+  min-width: 360px;
+  max-width: 600px;
+  background: #fafbfc;
+  box-shadow: -2px 0 8px #0001;
+  padding: 24px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  overflow-y: auto;
+  height: 100vh;
+}
+
+mat-card {
+  margin-bottom: 16px;
+}

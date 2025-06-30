@@ -144,3 +144,91 @@
     <canvas id="courtCanvas" width="600" height="600"></canvas>
   </div>
 </div>
+
+<div class="main-content-row">
+  <div class="visualization-panel">
+    <!-- 统计卡片 -->
+    <div class="stat-cards" *ngIf="statCards.length">
+      <mat-card *ngFor="let card of statCards" style="margin-bottom: 8px">
+        <mat-card-title>{{ card.label }}</mat-card-title>
+        <mat-card-content>{{ card.value }}</mat-card-content>
+      </mat-card>
+    </div>
+    <!-- 柱状图 -->
+    <div class="chart-container" *ngIf="barChartData.length">
+      <h3>Bar Chart</h3>
+      <canvas
+        baseChart
+        [datasets]="barChartData"
+        [labels]="barChartLabels"
+        [options]="barChartOptions"
+        [legend]="true"
+        chartType="bar"
+      >
+      </canvas>
+    </div>
+    <!-- 饼图 -->
+    <div
+      class="chart-container"
+      *ngIf="pieChartData && pieChartData.length > 0"
+    >
+      <h3>Pie Chart (Input Distribution)</h3>
+      <canvas
+        baseChart
+        [data]="pieChartData"
+        [labels]="pieChartLabels"
+        [options]="pieChartOptions"
+        [legend]="true"
+        chartType="pie"
+      >
+      </canvas>
+    </div>
+    <!-- 折线图 -->
+    <div
+      class="chart-container"
+      *ngIf="lineChartLabels && lineChartLabels.length > 0"
+    >
+      <h3>Line Chart (Yield & Moisture Over Time)</h3>
+      <canvas
+        baseChart
+        [datasets]="lineChartData"
+        [labels]="lineChartLabels"
+        [options]="lineChartOptions"
+        [legend]="true"
+        chartType="line"
+      >
+      </canvas>
+    </div>
+    <!-- 进度条 -->
+    <div class="progress-container" *ngIf="harvestStats">
+      <h3>
+        Irrigation Progress ({{ irrigationProgress | number : "1.0-0" }}%)
+      </h3>
+      <mat-progress-bar
+        mode="determinate"
+        [value]="irrigationProgress"
+      ></mat-progress-bar>
+      <p style="margin-top: 8px; font-size: 12px; color: #666">
+        Target: 10 irrigation times
+      </p>
+    </div>
+    <!-- 表格 -->
+    <div class="table-container" *ngIf="harvestStats">
+      <h3>Harvest Stats Table</h3>
+      <table>
+        <tr>
+          <th>Field</th>
+          <th>Value</th>
+        </tr>
+        <tr *ngFor="let key of objectKeys(harvestStats)">
+          <ng-container
+            *ngIf="key !== 'yieldRecords' && key !== 'yield_records'"
+          >
+            <td>{{ key }}</td>
+            <td>{{ harvestStats[key] }}</td>
+          </ng-container>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
