@@ -1,3 +1,30 @@
+@import '~@angular/material/theming';
+
+// 定义自定义调色板
+$my-green: (
+  500: #43a047,
+  contrast: (
+    500: #fff
+  )
+);
+$my-brown: (
+  500: #8d6e63,
+  contrast: (
+    500: #fff
+  )
+);
+
+// 生成自定义主题色
+$custom-primary: mat-palette($mat-indigo);
+$custom-accent: mat-palette($my-green);
+$custom-warn: mat-palette($my-brown);
+
+// 创建主题
+$custom-theme: mat-light-theme($custom-primary, $custom-accent, $custom-warn);
+
+// 应用主题
+@include angular-material-theme($custom-theme);
+
 /* You can add global styles to this file, and also import other style files */
 
 html, body { height: 100%; }

@@ -1,6 +1,7 @@
 player-summary-component {
   display: block;
   padding: 20px;
+  padding-left: 32px;
 
   mat-form-field {
     margin-right: 20px;
@@ -29,20 +30,30 @@ player-summary-component {
 /* stats and diagram container */
 .stats-court-container {
   display: flex;
-  //make space evenly
   justify-content: space-between;
   gap: 20px;
   align-items: flex-start;
   width: 100%;
+  max-height: 220px;
 }
 
 .stats-container {
   width: 50%;
+  max-height: 200px;
+  overflow-y: auto;
 }
 
 .court-container {
   width: 50%;
-  position: relative; 
+  position: relative;
+  max-height: 200px;
+}
+
+.court-container canvas {
+  width: 180px !important;
+  height: 180px !important;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .court-image {
@@ -60,34 +71,20 @@ player-summary-component {
   transform: translate(-50%, -50%); 
 }
 
-/* 主内容行布局 */
-.main-content-row {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  gap: 32px;
-  justify-content: flex-end;
-  margin-top: 20px;
-  width: 100%;
-  position: relative;
-}
-
 /* 右侧可视化面板 */
 .visualization-panel {
-  flex: 0 0 420px;
-  min-width: 350px;
-  max-width: 480px;
+  position: fixed !important;
+  top: 120px !important;
+  right: 20px !important;
+  width: 420px;
+  height: calc(100vh - 140px);
   background: #fafbfc;
   border-radius: 8px;
   padding: 16px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  align-self: flex-start;
-  position: fixed;
-  top: 100px;
-  right: 20px;
-  max-height: calc(100vh - 120px);
   overflow-y: auto;
-  z-index: 1000;
+  z-index: 9999;
+  border: 1px solid #e0e0e0;
 }
 
 /* 图表容器样式 */
@@ -171,4 +168,17 @@ player-summary-component {
       color: #666;
     }
   }
+}
+
+::ng-deep .organic-progress .mat-progress-bar-fill,
+::ng-deep .organic-progress .mat-progress-bar-element,
+::ng-deep .organic-progress .mat-progress-bar-fill::after,
+::ng-deep .organic-progress .mat-progress-bar-element::after {
+  background-color: #43a047 !important;
+}
+::ng-deep .machinery-progress .mat-progress-bar-fill,
+::ng-deep .machinery-progress .mat-progress-bar-element,
+::ng-deep .machinery-progress .mat-progress-bar-fill::after,
+::ng-deep .machinery-progress .mat-progress-bar-element::after {
+  background-color: #8d6e63 !important;
 }

@@ -1,4 +1,4 @@
-<h1>Crop Summary Page</h1>
+<h1>&nbsp;&nbsp;Crop Summary Page</h1>
 <div>
   <!-- select crop via id-->
   <mat-form-field appearance="fill">
@@ -33,11 +33,11 @@
 </div>
 
 <div *ngIf="cropSummary">
-  <h2>{{ cropSummary.name }}</h2>
+  <h2>&nbsp;&nbsp;{{ cropSummary.name }}</h2>
 </div>
 
 <div class="stats-container" *ngIf="harvestStats">
-  <h2>Harvest Stats for {{ selectedHarvestDate }}</h2>
+  <h2>&nbsp;&nbsp;Harvest Stats for {{ selectedHarvestDate }}</h2>
   <mat-card>
     <mat-card-content>
       <ul>
@@ -145,90 +145,115 @@
   </div>
 </div>
 
-<div class="main-content-row">
-  <div class="visualization-panel">
-    <!-- 统计卡片 -->
-    <div class="stat-cards" *ngIf="statCards.length">
-      <mat-card *ngFor="let card of statCards" style="margin-bottom: 8px">
-        <mat-card-title>{{ card.label }}</mat-card-title>
-        <mat-card-content>{{ card.value }}</mat-card-content>
-      </mat-card>
-    </div>
-    <!-- 柱状图 -->
-    <div class="chart-container" *ngIf="barChartData.length">
-      <h3>Bar Chart</h3>
-      <canvas
-        baseChart
-        [datasets]="barChartData"
-        [labels]="barChartLabels"
-        [options]="barChartOptions"
-        [legend]="true"
-        chartType="bar"
-      >
-      </canvas>
-    </div>
-    <!-- 饼图 -->
-    <div
-      class="chart-container"
-      *ngIf="pieChartData && pieChartData.length > 0"
+<!-- 右侧可视化面板 - 移出容器，直接放在根级别 -->
+<div class="visualization-panel">
+  <!-- 表格 -->
+  <div class="table-container" *ngIf="harvestStats">
+    <h3>Harvest Stats Table</h3>
+    <table>
+      <tr>
+        <th>Field</th>
+        <th>Value</th>
+      </tr>
+      <tr *ngFor="let key of objectKeys(harvestStats)">
+        <ng-container *ngIf="key !== 'yieldRecords' && key !== 'yield_records'">
+          <td>{{ key }}</td>
+          <td>{{ harvestStats[key] }}</td>
+        </ng-container>
+      </tr>
+    </table>
+  </div>
+  <!-- 进度条：灌溉、有机投入、机械使用 -->
+  <div class="progress-container" *ngIf="harvestStats">
+    <h3>
+      &nbsp;&nbsp;Irrigation Progress ({{
+        irrigationProgress | number : "1.0-0"
+      }}%)
+    </h3>
+    <mat-progress-bar
+      color="primary"
+      mode="determinate"
+      [value]="irrigationProgress"
+    ></mat-progress-bar>
+    <p style="margin-top: 8px; font-size: 12px; color: #666">
+      &nbsp;&nbsp;Target: 10 irrigation times
+    </p>
+
+    <h3 style="margin-top: 24px">
+      &nbsp;&nbsp;Organic Input Progress ({{
+        organicInputProgress | number : "1.0-0"
+      }}%)
+    </h3>
+    <mat-progress-bar
+      color="accent"
+      mode="determinate"
+      [value]="organicInputProgress"
+    ></mat-progress-bar>
+    <p style="margin-top: 8px; font-size: 12px; color: #666">
+      &nbsp;&nbsp;Target: {{ harvestStats.organicInputTotal || 1 }} organic
+      inputs
+    </p>
+
+    <h3 style="margin-top: 24px">
+      &nbsp;&nbsp;Machinery Usage Progress ({{
+        machineryProgress | number : "1.0-0"
+      }}%)
+    </h3>
+    <mat-progress-bar
+      color="warn"
+      mode="determinate"
+      [value]="machineryProgress"
+    ></mat-progress-bar>
+    <p style="margin-top: 8px; font-size: 12px; color: #666">
+      &nbsp;&nbsp;Target: {{ harvestStats.machineryTotal || 1 }} machinery uses
+    </p>
+  </div>
+  <!-- 柱状图：投入结构 -->
+  <div
+    class="chart-container"
+    *ngIf="barChartData.datasets && barChartData.datasets.length > 0"
+  >
+    <h3>Bar Chart (Input Structure)</h3>
+    <canvas
+      baseChart
+      [data]="barChartData"
+      [options]="barChartOptions"
+      [legend]="true"
+      chartType="bar"
     >
-      <h3>Pie Chart (Input Distribution)</h3>
-      <canvas
-        baseChart
-        [data]="pieChartData"
-        [labels]="pieChartLabels"
-        [options]="pieChartOptions"
-        [legend]="true"
-        chartType="pie"
-      >
-      </canvas>
-    </div>
-    <!-- 折线图 -->
-    <div
-      class="chart-container"
-      *ngIf="lineChartLabels && lineChartLabels.length > 0"
+    </canvas>
+  </div>
+  <!-- 事件统计饼图 - 暂时注释掉 -->
+  <!--
+  <div
+    class="chart-container"
+    *ngIf="eventPieChartDatasets.datasets && eventPieChartDatasets.datasets.length > 0"
+  >
+    <h3>Pie Chart (Event Statistics)</h3>
+    <canvas
+      baseChart
+      [data]="eventPieChartDatasets"
+      [options]="eventPieChartOptions"
+      [legend]="true"
+      chartType="pie"
+      style="height: 300px; width: 100%"
     >
-      <h3>Line Chart (Yield & Moisture Over Time)</h3>
-      <canvas
-        baseChart
-        [datasets]="lineChartData"
-        [labels]="lineChartLabels"
-        [options]="lineChartOptions"
-        [legend]="true"
-        chartType="line"
-      >
-      </canvas>
-    </div>
-    <!-- 进度条 -->
-    <div class="progress-container" *ngIf="harvestStats">
-      <h3>
-        Irrigation Progress ({{ irrigationProgress | number : "1.0-0" }}%)
-      </h3>
-      <mat-progress-bar
-        mode="determinate"
-        [value]="irrigationProgress"
-      ></mat-progress-bar>
-      <p style="margin-top: 8px; font-size: 12px; color: #666">
-        Target: 10 irrigation times
-      </p>
-    </div>
-    <!-- 表格 -->
-    <div class="table-container" *ngIf="harvestStats">
-      <h3>Harvest Stats Table</h3>
-      <table>
-        <tr>
-          <th>Field</th>
-          <th>Value</th>
-        </tr>
-        <tr *ngFor="let key of objectKeys(harvestStats)">
-          <ng-container
-            *ngIf="key !== 'yieldRecords' && key !== 'yield_records'"
-          >
-            <td>{{ key }}</td>
-            <td>{{ harvestStats[key] }}</td>
-          </ng-container>
-        </tr>
-      </table>
-    </div>
+    </canvas>
+  </div>
+  -->
+  <!-- 折线图 -->
+  <div
+    class="chart-container"
+    *ngIf="lineChartData.labels && lineChartData.labels.length > 0"
+  >
+    <h3>Column Chart: Yield & Area Over Time</h3>
+    <canvas
+      baseChart
+      [data]="lineChartData"
+      [options]="lineChartOptions"
+      [legend]="true"
+      chartType="line"
+    >
+    </canvas>
   </div>
 </div>

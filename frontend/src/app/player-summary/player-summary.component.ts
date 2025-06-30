@@ -7,6 +7,7 @@ import {
 } from '@angular/core';
 import { untilDestroyed, UntilDestroy } from '@ngneat/until-destroy';
 import { CropsService } from '../_services/players.service';
+import { ChartData, ChartOptions } from 'chart.js';
 
 @UntilDestroy()
 @Component({
@@ -32,15 +33,35 @@ export class CropSummaryComponent implements OnInit, OnDestroy {
   // 可视化相关变量
   statCards: { label: string; value: any }[] = [];
   barChartLabels: string[] = [];
-  barChartData: any[] = [];
-  barChartOptions = { responsive: true };
-  pieChartLabels: string[] = [];
-  pieChartData: number[] = [];
-  pieChartOptions = { responsive: true };
+  barChartData: ChartData<'bar'> = {
+    labels: [],
+    datasets: [],
+  };
+  barChartOptions: ChartOptions = { responsive: true };
   lineChartLabels: string[] = [];
-  lineChartData: any[] = [];
-  lineChartOptions = { responsive: true };
+  lineChartData: ChartData<'line'> = {
+    labels: [],
+    datasets: [],
+  };
+  lineChartOptions: ChartOptions = { responsive: true };
   irrigationProgress = 0;
+  organicInputProgress = 0;
+  machineryProgress = 0;
+  eventPieChartLabels: string[] = [];
+  eventPieChartData: number[] = [];
+  eventPieChartDatasets: ChartData<'pie'> = {
+    labels: [],
+    datasets: [],
+  };
+  eventPieChartOptions: ChartOptions = {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: {
+        position: 'bottom',
+      },
+    },
+  };
 
   constructor(
     protected cdr: ChangeDetectorRef,
@@ -106,64 +127,55 @@ export class CropSummaryComponent implements OnInit, OnDestroy {
           { label: 'Moisture', value: selectedHarvest.moisture },
           { label: 'Pesticide Used', value: selectedHarvest.pesticideUsed },
         ];
-        // 柱状图
+        // 投入结构柱状图
         this.barChartLabels = [
-          'Area',
-          'Yield Amount',
-          'Fertilizer Used',
-          'Irrigation Times',
-          'Moisture',
-          'Pesticide Used',
-        ];
-        this.barChartData = [
-          {
-            data: [
-              selectedHarvest.area,
-              selectedHarvest.yieldAmount,
-              selectedHarvest.fertilizerUsed,
-              selectedHarvest.irrigationTimes,
-              selectedHarvest.moisture,
-              selectedHarvest.pesticideUsed,
-            ],
-            label: 'Harvest Data',
-          },
-        ];
-        // 饼图 - 修复数据逻辑
-        this.pieChartLabels = [
           'Fertilizer Used',
           'Pesticide Used',
-          'Organic Input',
-          'Machinery',
+          'Organic Input Times',
+          'Machinery Used',
         ];
-        const fertilizer = selectedHarvest.fertilizerUsed || 0;
-        const pesticide = selectedHarvest.pesticideUsed || 0;
-        const organic = selectedHarvest.organicInputTotal || 0;
-        const machinery = selectedHarvest.machineryTotal || 0;
-
-        this.pieChartData = [fertilizer, pesticide, organic, machinery];
-
-        // 确保饼图数据不为空
-        if (this.pieChartData.every((val) => val === 0)) {
-          this.pieChartData = [1, 1, 1, 1]; // 默认显示
-          this.pieChartLabels = ['No Data Available'];
-        }
-
+        this.barChartData = {
+          labels: this.barChartLabels,
+          datasets: [
+            {
+              label: `Input Structure on ${this.selectedHarvestDate}`,
+              data: [
+                selectedHarvest.fertilizerUsed,
+                selectedHarvest.pesticideUsed,
+                selectedHarvest.organicInputTimes,
+                selectedHarvest.machineryUsed,
+              ],
+              backgroundColor: [
+                '#FF6384', // Fertilizer Used
+                '#36A2EB', // Pesticide Used
+                '#FFCE56', // Organic Input Times
+                '#4BC0C0', // Machinery Used
+              ],
+            },
+          ],
+        };
         // 折线图（如有历史）
-        if (this.cropSummary.harvests.length > 1) {
+        if (this.cropSummary.harvests.length > 0) {
           this.lineChartLabels = this.cropSummary.harvests.map((h) => h.date);
-          this.lineChartData = [
-            {
-              data: this.cropSummary.harvests.map((h) => h.yieldAmount),
-              label: 'Yield Amount',
-            },
-            {
-              data: this.cropSummary.harvests.map((h) => h.moisture || 0),
-              label: 'Moisture',
-            },
-          ];
+          this.lineChartData = {
+            labels: this.lineChartLabels,
+            datasets: [
+              {
+                label: 'Yield Amount',
+                data: this.cropSummary.harvests.map((h) => h.yieldAmount),
+              },
+              {
+                label: 'Area',
+                data: this.cropSummary.harvests.map((h) => h.area || 0),
+              },
+            ],
+          };
         } else {
           this.lineChartLabels = [];
-          this.lineChartData = [];
+          this.lineChartData = {
+            labels: this.lineChartLabels,
+            datasets: [],
+          };
         }
 
         // 进度条 - 修复计算逻辑
@@ -173,11 +185,55 @@ export class CropSummaryComponent implements OnInit, OnDestroy {
           100,
           (irrigationTimes / targetIrrigation) * 100
         );
-
-        // 确保进度条有值
         if (this.irrigationProgress === 0 && irrigationTimes > 0) {
-          this.irrigationProgress = 10; // 至少显示10%
+          this.irrigationProgress = 10;
         }
+
+        // 新增：有机投入进度条
+        const organicInputTimes = selectedHarvest.organicInputTimes || 0;
+        const organicInputTotal = selectedHarvest.organicInputTotal || 1;
+        this.organicInputProgress = Math.min(
+          100,
+          (organicInputTimes / organicInputTotal) * 100
+        );
+        if (this.organicInputProgress === 0 && organicInputTimes > 0) {
+          this.organicInputProgress = 10;
+        }
+
+        // 新增：机械使用进度条
+        const machineryUsed = selectedHarvest.machineryUsed || 0;
+        const machineryTotal = selectedHarvest.machineryTotal || 1;
+        this.machineryProgress = Math.min(
+          100,
+          (machineryUsed / machineryTotal) * 100
+        );
+        if (this.machineryProgress === 0 && machineryUsed > 0) {
+          this.machineryProgress = 10;
+        }
+
+        // 事件统计饼图
+        this.eventPieChartLabels = [
+          'Disease Events',
+          'Replant Times',
+          'Weed Events',
+          'Soil Events',
+        ];
+        this.eventPieChartData = [
+          selectedHarvest.diseaseEvents,
+          selectedHarvest.replantTimes,
+          selectedHarvest.weedEvents,
+          selectedHarvest.soilEvents,
+        ];
+        this.eventPieChartDatasets = {
+          labels: this.eventPieChartLabels,
+          datasets: [
+            {
+              data: this.eventPieChartData,
+              backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0'],
+              borderWidth: 1,
+            },
+          ],
+        };
       }
     }
   }
