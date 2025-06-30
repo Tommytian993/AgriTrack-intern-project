@@ -55,7 +55,7 @@ export class CropSummaryComponent implements OnInit, OnDestroy {
   };
   eventPieChartOptions: ChartOptions = {
     responsive: true,
-    maintainAspectRatio: false,
+    maintainAspectRatio: true,
     plugins: {
       legend: {
         position: 'bottom',
