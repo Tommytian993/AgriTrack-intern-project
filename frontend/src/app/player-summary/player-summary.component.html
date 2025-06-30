@@ -223,11 +223,13 @@
     >
     </canvas>
   </div>
-  <!-- 事件统计饼图 - 暂时注释掉 -->
-  <!--
+  <!-- 事件统计饼图 - 重新启用 -->
   <div
     class="chart-container"
-    *ngIf="eventPieChartDatasets.datasets && eventPieChartDatasets.datasets.length > 0"
+    *ngIf="
+      eventPieChartDatasets.datasets &&
+      eventPieChartDatasets.datasets.length > 0
+    "
   >
     <h3>Pie Chart (Event Statistics)</h3>
     <canvas
@@ -240,7 +242,6 @@
     >
     </canvas>
   </div>
-  -->
   <!-- 折线图 -->
   <div
     class="chart-container"

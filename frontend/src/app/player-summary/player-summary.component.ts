@@ -224,16 +224,31 @@ export class CropSummaryComponent implements OnInit, OnDestroy {
           selectedHarvest.weedEvents,
           selectedHarvest.soilEvents,
         ];
-        this.eventPieChartDatasets = {
-          labels: this.eventPieChartLabels,
-          datasets: [
-            {
-              data: this.eventPieChartData,
-              backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0'],
-              borderWidth: 1,
-            },
-          ],
-        };
+        // 检查是否有有效数据
+        const hasValidData = this.eventPieChartData.some(
+          (value) => value > 0 && typeof value === 'number' && !isNaN(value)
+        );
+        console.log(
+          'Pie chart data:',
+          this.eventPieChartData,
+          'Has valid:',
+          hasValidData
+        );
+        if (hasValidData) {
+          this.eventPieChartDatasets = {
+            labels: this.eventPieChartLabels,
+            datasets: [
+              {
+                data: this.eventPieChartData,
+                backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0'],
+                borderWidth: 1,
+              },
+            ],
+          };
+        } else {
+          // 没有有效数据时，清空饼图
+          this.eventPieChartDatasets = { labels: [], datasets: [] };
+        }
       }
     }
   }
